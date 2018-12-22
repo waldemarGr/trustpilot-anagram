@@ -1,0 +1,19 @@
+
+}squid:S1450"ZRemove the "winSentecne" field and declare it as a local variable in the relevant methods.(ëÇ–§üÿÿÿÿ8ÙŒ‰‰ı,
+W
+squid:S106"9Replace this use of System.out or System.err by a logger.(€ÿ¦ß8Ú¨ç³ı,
+dsquid:HiddenFieldCheck˜";Rename "seconds" which hides the field declared at line 21.(¢Î‰n8Ú¨ç³ı,
+rsquid:S00116"NRename this field "LOG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÈ²¼ûÿÿÿÿ8ø¥¶ƒı,
+Ksquid:S1068"-Remove this unused "DEEP_STEP" private field.(òŸüø8÷“À‡ı,
+Rsquid:S1068"/Remove this unused "winSentecne" private field.(ëÇ–§üÿÿÿÿ8äêÔ‚ı,
+^squid:S1854~";Remove this useless assignment to local variable "strings".(“ÒˆÊÿÿÿÿÿ8•Äæ³ı,
+W
+squid:S106Š"9Replace this use of System.out or System.err by a logger.(‘ó§‡8Ú¨ç³ı,
+W
+squid:S106™"9Replace this use of System.out or System.err by a logger.(öšØµ8Ú¨ç³ı,
+Osquid:S1481~",Remove this unused "strings" local variable.(“ÒˆÊÿÿÿÿÿ8•Äæ³ı,
+usquid:S3776P"RRefactor this method to reduce its Cognitive Complexity from 44 to the 15 allowed.(›ˆŞÿşÿÿÿÿ8Ø¼‰…ı,
+ysquid:S1450"VRemove the "seconds" field and declare it as a local variable in the relevant methods.(ı‚ª›ùÿÿÿÿ8ªÂ ı,
+isquid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(½ö¢Ó8÷“À‡ı,
+jsquid:HiddenFieldCheckp"<Rename "sentence" which hides the field declared at line 17.(ÇÌ‡ùÿÿÿÿ8±Œ´ı,
+esquid:HiddenFieldChecks"<Rename "sentence" which hides the field declared at line 17.(¦“­—8±Œ´ı,

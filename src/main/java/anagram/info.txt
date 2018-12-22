@@ -1,0 +1,28 @@
+abcde
+
+ab cd e
+
+
+
+1)
+abcde - ab =cde
+2)
+cde - cd =e
+
+
+3a)
+e -e =0
+3b)
+e-a=e
+
+==========
+aab
+xxx
+cdef
+aabcdef
+1)
+aabcdef- aab=cdef
+2)
+cdef -xxx
+3)
+cdef - cdef=0

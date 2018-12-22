@@ -1,0 +1,7 @@
+2018-12-22 15:25:51.229 [main] INFO  anagram.Letters - words: [yawls, stout, printout] 
+ number of words: 3 
+letters [y, w, u, u, t, t, t, t, s, s, r, p, o, o, n, l, i, a] 
+numbers of letter 18
+2018-12-22 15:25:51.245 [main] INFO  anagram.Letters - Candidate to win:   yawls stout printout 
+2018-12-22 15:25:51.279 [main] INFO  anagram.Letters - The winner is   printout stout yawls
+2018-12-22 15:25:51.286 [main] INFO  anagram.Letters - The winner is   printout stout yawls
