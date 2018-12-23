@@ -12,13 +12,10 @@ import org.apache.logging.log4j.Logger;
 
 public class Letters {
 
-  private static final int DEEP_STEP = 2;
   private final String hashCode;
   private final Sentence sentence = new Sentence();
-  private Logger LOG = LogManager.getLogger(Letters.class);
-  private List<String> words;
-  private List<String> winSentecne;
-  private long seconds;
+  private final Logger LOG = LogManager.getLogger(Letters.class);
+  private final List<String> words;
 
   public Letters(List<String> words, String hashCode) {
     this.words = words;
@@ -26,7 +23,7 @@ public class Letters {
   }
 
 
-  public boolean deleteLettersIfPossible(List<String> lettersOfWord, List<String> allLettersAnagram) {
+  private boolean deleteLettersIfPossible(List<String> lettersOfWord, List<String> allLettersAnagram) {
     List<String> copyAllLettersAnagram = new ArrayList<>(allLettersAnagram);
     for (String letter : lettersOfWord) {
       if (!copyAllLettersAnagram.remove(letter)) {
@@ -38,35 +35,7 @@ public class Letters {
     return true;
   }
 
-//  public void findAnagrams(List<String> letters, List<String> winWords, Integer deep) {
-//    deep++;
-//    List<String> lettersToUse = new LinkedList<>(letters);
-//    for (String word : words) {
-//      Model process = deleteWordsFromLetters(word, lettersToUse);
-//      if (!process.isLetterDeleted()) {
-//        continue;
-//      }
-//      if (process.isAnagramLetterIsEmpty()) {
-//        winWords.add(word);
-//        System.out.println("win: " + winWords);
-//        break;
-//      }
-//      if (process.isLetterDeleted() && !process.isAnagramLetterIsEmpty() && deep <= Letters.DEEP_STEP) {
-//        winWords.add(word);
-//        List<String> newWinWords = new LinkedList(winWords);
-//        findAnagrams(process.getLettersToUse(), newWinWords, deep);
-//      }
-//      if (process.isLetterDeleted() && !process.isAnagramLetterIsEmpty() && deep > Letters.DEEP_STEP) {
-//        continue;
-//      }
-//      if (process.isLetterDeleted() && process.isAnagramLetterIsEmpty()) {
-//        System.out.println("xx");
-//      }
-//      System.out.println("OUT?" + process.toString());
-//    }
-//  }
-
-  public Model deleteWordsFromLetters(String word, List<String> lettersToUse) {
+  private Model deleteWordsFromLetters(String word, List<String> lettersToUse) {
     List<String> lettersOfWord = Arrays.asList(word.split(""));
     boolean isLettersDeleted = deleteLettersIfPossible(lettersOfWord, lettersToUse);
 
@@ -77,7 +46,7 @@ public class Letters {
         .build();
   }
 
-  public String findAnagramLoop(List<String> letters) {
+  public String findAnagramLoopFromLetters(List<String> letters) {
     LOG.info("words: {} "
             + "\n number of words: {} "
             + "\nletters {} "
@@ -85,8 +54,7 @@ public class Letters {
         , words, words.size(), letters, letters.size());
 
     DecodeMD5 decodeMD5 = new DecodeMD5(hashCode);
-    winSentecne = new LinkedList<>();
-    Instant start = Instant.now();
+    Instant startTime = Instant.now();
     for (String word : words) {
       List<String> lettersToUse = new LinkedList<>(letters);
       Model model = deleteWordsFromLetters(word, lettersToUse);
@@ -99,38 +67,39 @@ public class Letters {
               List<String> winWords3 = new LinkedList<>(model1.getLettersToUse());
               Model model2 = deleteWordsFromLetters(word2, winWords3);
               if (model2.isAnagramLetterIsEmpty()) {
-                List<String> strings = Arrays.asList(
-                    word + " " + word1 + " " + word2,
-                    word + " " + word2 + " " + word1,
-                    word1 + " " + word + " " + word2,
-                    word1 + " " + word2 + " " + word,
-                    word2 + " " + word + " " + word1,
-                    word2 + " " + word1 + " " + word
-                );
+                List<String> strings = sentence.prepareMixWordsVariable(word, word1, word2);
 
                 LOG.info("Candidate to win:   {} ", word + " " + word1 + " " + word2);
-                strings.forEach(sentence -> isWinner(decodeMD5, sentence, start));
+                strings.forEach(sentence -> isWinner(decodeMD5, sentence, startTime));
 
                 Optional<String> winnSentence = strings.stream()
-                    .filter(sentence -> isWinner(decodeMD5, sentence, start))
+                    .filter(sentence -> isWinner(decodeMD5, sentence, startTime))
                     .findFirst();
 
                 if (winnSentence.isPresent()) {
                   return winnSentence.get();
                 }
+
               } else if (model2.isPossibleProcessDeeper()) {
                 for (String word3 : words) {
                   List<String> winWords4 = new LinkedList<>(model2.getLettersToUse());
                   Model model3 = deleteWordsFromLetters(word3, winWords4);
                   if (model3.isAnagramLetterIsEmpty()) {
                     List<String> strings = sentence.prepareSentenceWIthMixedWords(word, word1, word2, word3);
+
+                    LOG.info("Candidate to win:   {} ", word + " " + word1 + " " + word2 + " " + word3);
+                    strings.forEach(sentence -> isWinner(decodeMD5, sentence, startTime));
+
+                    Optional<String> winnSentence = strings.stream()
+                        .filter(sentence -> isWinner(decodeMD5, sentence, startTime))
+                        .findFirst();
+
+                    if (winnSentence.isPresent()) {
+                      return winnSentence.get();
+                    }
                   }
                 }
-
-
               }
-
-
             }
           }
         }
@@ -138,11 +107,10 @@ public class Letters {
       System.out.println(String.format("%20s  %d/%d", word, words.size(), words.indexOf(word)));
     }
     Instant stop = Instant.now();
-    seconds = Duration.between(start, stop).getSeconds();
+    long seconds = Duration.between(startTime, stop).getSeconds();
     System.out.println("Duration: " + seconds / 60 + " min" + seconds / 60 + " s");
     return null;
   }
-
 
 
   private boolean isWinner(DecodeMD5 decodeMD5, String sentence, Instant start) {
