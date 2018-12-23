@@ -55,7 +55,7 @@ public class Sentence {
   }
 
   private String prepareSentenceVariable(List<String> words) {
-    return words.stream().collect(Collectors.joining(" ")).trim();
+    return String.join(" ", words).trim();
   }
 
 }

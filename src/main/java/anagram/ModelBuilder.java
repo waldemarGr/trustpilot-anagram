@@ -20,7 +20,7 @@ public class ModelBuilder {
     return this;
   }
 
-  public ModelBuilder withLeterToUse(List<String> lettersToUse) {
+  public ModelBuilder withLetterToUse(List<String> lettersToUse) {
     this.lettersToUse = new LinkedList<>(lettersToUse);
     return this;
   }

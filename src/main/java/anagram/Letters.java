@@ -42,7 +42,7 @@ public class Letters {
     return new ModelBuilder()
         .withAnagramLetterIsEmpty(lettersToUse.isEmpty())
         .withLetterDeleted(isLettersDeleted)
-        .withLeterToUse(lettersToUse)
+        .withLetterToUse(lettersToUse)
         .build();
   }
 
