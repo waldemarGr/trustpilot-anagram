@@ -9,13 +9,15 @@ import java.util.List;
 import java.util.Optional;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.util.Strings;
 
 public class Letters {
 
   private final String hashCode;
   private final Sentence sentence = new Sentence();
-  private final Logger LOG = LogManager.getLogger(Letters.class);
+  private final Logger LOGGER = LogManager.getLogger(Letters.class);
   private final List<String> words;
+  private DecodeMD5 decodeMD5;
 
   public Letters(List<String> words, String hashCode) {
     this.words = words;
@@ -35,7 +37,7 @@ public class Letters {
     return true;
   }
 
-  private Model deleteWordsFromLetters(String word, List<String> lettersToUse) {
+  private PhaseControl deleteWordsFromLetters(String word, List<String> lettersToUse) {
     List<String> lettersOfWord = Arrays.asList(word.split(""));
     boolean isLettersDeleted = deleteLettersIfPossible(lettersOfWord, lettersToUse);
 
@@ -46,57 +48,46 @@ public class Letters {
         .build();
   }
 
-  public String findAnagramLoopFromLetters(List<String> letters) {
-    LOG.info("words: {} "
+  public String findAnagramFromLetters(List<String> letters) {
+    Instant startTime = Instant.now();
+    LOGGER.info("words: {} "
             + "\n number of words: {} "
             + "\nletters {} "
             + "\nnumbers of letter {}"
         , words, words.size(), letters, letters.size());
+    String anagramLoopFromLetters = findAnagramLoopFromLetters(letters);
+    Instant stop = Instant.now();
+    long seconds = Duration.between(startTime, stop).getSeconds();
+    LOGGER.info("Duration: {}min {}s ", seconds / 60, seconds % 60);
 
-    DecodeMD5 decodeMD5 = new DecodeMD5(hashCode);
-    Instant startTime = Instant.now();
-    for (String word : words) {
+    return anagramLoopFromLetters;
+  }
+
+  private String findAnagramLoopFromLetters(List<String> letters) {
+
+    decodeMD5 = new DecodeMD5(hashCode);
+
+    for (String word_1st : words) {
       List<String> lettersToUse = new LinkedList<>(letters);
-      Model model = deleteWordsFromLetters(word, lettersToUse);
-      if (model.isPossibleProcessDeeper()) {
-        for (String word1 : words) {
-          List<String> winWords2 = new LinkedList<>(model.getLettersToUse());
-          Model model1 = deleteWordsFromLetters(word1, winWords2);
-          if (model1.isPossibleProcessDeeper()) {
-            for (String word2 : words) {
-              List<String> winWords3 = new LinkedList<>(model1.getLettersToUse());
-              Model model2 = deleteWordsFromLetters(word2, winWords3);
-              if (model2.isAnagramLetterIsEmpty()) {
-                List<String> strings = sentence.prepareMixWordsVariable(word, word1, word2);
-
-                LOG.info("Candidate to win:   {} ", word + " " + word1 + " " + word2);
-                strings.forEach(sentence -> isWinner(decodeMD5, sentence, startTime));
-
-                Optional<String> winnSentence = strings.stream()
-                    .filter(sentence -> isWinner(decodeMD5, sentence, startTime))
-                    .findFirst();
-
-                if (winnSentence.isPresent()) {
-                  return winnSentence.get();
+      PhaseControl phaseControlLevel1st = deleteWordsFromLetters(word_1st, lettersToUse);
+      if (phaseControlLevel1st.isPossibleProcessDeeper()) {
+        for (String word_2nd : words) {
+          List<String> lettersToUse2 = new LinkedList<>(phaseControlLevel1st.getAvailabeLetters());
+          PhaseControl phaseControlLevel2nd = deleteWordsFromLetters(word_2nd, lettersToUse2);
+          if (phaseControlLevel2nd.isPossibleProcessDeeper()) {
+            for (String word_3rd : words) {
+              List<String> lettersToUse3 = new LinkedList<>(phaseControlLevel2nd.getAvailabeLetters());
+              PhaseControl phaseControlLevel3rd = deleteWordsFromLetters(word_3rd, lettersToUse3);
+              if (phaseControlLevel3rd.isAnagramLetterIsEmpty()) {
+                Optional<String> winSentenceWith3Words = getWinSentence(word_1st, word_2nd, word_3rd, Strings.EMPTY);
+                if (winSentenceWith3Words.isPresent()) {
+                  return winSentenceWith3Words.get();
                 }
-
-              } else if (model2.isPossibleProcessDeeper()) {
-                for (String word3 : words) {
-                  List<String> winWords4 = new LinkedList<>(model2.getLettersToUse());
-                  Model model3 = deleteWordsFromLetters(word3, winWords4);
-                  if (model3.isAnagramLetterIsEmpty()) {
-                    List<String> strings = sentence.prepareSentenceWIthMixedWords(word, word1, word2, word3);
-
-                    LOG.info("Candidate to win:   {} ", word + " " + word1 + " " + word2 + " " + word3);
-                    strings.forEach(sentence -> isWinner(decodeMD5, sentence, startTime));
-
-                    Optional<String> winnSentence = strings.stream()
-                        .filter(sentence -> isWinner(decodeMD5, sentence, startTime))
-                        .findFirst();
-
-                    if (winnSentence.isPresent()) {
-                      return winnSentence.get();
-                    }
+              } else if (phaseControlLevel3rd.isPossibleProcessDeeper()) {
+                for (String word_4th : words) {
+                  Optional<String> winSentenceWith4Words = find4thWord(word_1st, word_2nd, word_3rd, word_4th, phaseControlLevel3rd.getAvailabeLetters());
+                  if (winSentenceWith4Words.isPresent()) {
+                    return winSentenceWith4Words.get();
                   }
                 }
               }
@@ -104,21 +95,38 @@ public class Letters {
           }
         }
       }
-      System.out.println(String.format("%20s  %d/%d", word, words.size(), words.indexOf(word)));
+      LOGGER.debug(String.format("%20s  %d/%d", word_1st, words.size(), words.indexOf(word_1st)));
     }
-    Instant stop = Instant.now();
-    long seconds = Duration.between(startTime, stop).getSeconds();
-    System.out.println("Duration: " + seconds / 60 + " min" + seconds / 60 + " s");
+
     return null;
   }
 
+  private Optional<String> find4thWord(String word, String word1, String word2, String word3, List<String> lettersToUse) {
+    Optional<String> winSentence = Optional.empty();
+    List<String> winWords4 = new LinkedList<>(lettersToUse);
+    PhaseControl phaseControl3 = deleteWordsFromLetters(word3, winWords4);
+    if (phaseControl3.isAnagramLetterIsEmpty()) {
+      winSentence = getWinSentence(word, word1, word2, word3);
 
-  private boolean isWinner(DecodeMD5 decodeMD5, String sentence, Instant start) {
+    }
+    return winSentence;
+  }
+
+  private Optional<String> getWinSentence(String word, String word1, String word2, String word3) {
+    List<String> strings = sentence.prepareSentenceWitchPermutationWords(word, word1, word2, word3);
+
+    LOGGER.info("Candidate to win:   {} ", word + " " + word1 + " " + word2);
+    strings.forEach(this::isWinner);
+
+    return strings.stream()
+        .filter(this::isWinner)
+        .findFirst();
+  }
+
+
+  private boolean isWinner(String sentence) {
     if (decodeMD5.isMd5MachToSentence(sentence)) {
-      LOG.info("The winner is   {}", sentence);
-      Instant winner = Instant.now();
-      long seconds = Duration.between(start, winner).getSeconds();
-      System.out.println(seconds / 60 + " min" + seconds / 60 + " s");
+      LOGGER.info("The winner is   {}", sentence);
       return Boolean.TRUE;
     }
     return Boolean.FALSE;

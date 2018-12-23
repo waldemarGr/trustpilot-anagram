@@ -25,7 +25,7 @@ public class Dictionary {
     this.phrase = phrase;
   }
 
-  public List<String> getWordsContainingSignificantLetters() {
+  private List<String> getWordsContainingSignificantLetters() {
     List<String> letters = getLettersFromSentence(phrase);
     List<String> list = new ArrayList<>();
     try (Stream<String> stream = Files.lines(Paths.get(WORD_LIST_PATH))) {

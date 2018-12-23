@@ -7,15 +7,14 @@ import org.junit.jupiter.api.Test;
 
 class SentenceTest {
 
-  private Sentence sentence;
   private List<String> mixSentence4Elements;
   private List<String> mixSentence3Elements;
 
   @BeforeEach
   public void init() {
-    sentence = new Sentence();
-    mixSentence4Elements = sentence.prepareMixWordsVariable("1", "2", "3", "4");
-    mixSentence3Elements = sentence.prepareMixWordsVariable("1", "2", "3");
+    Sentence sentence = new Sentence();
+    mixSentence4Elements = sentence.prepareSentenceWitchPermutationWords("1", "2", "3", "4");
+    mixSentence3Elements = sentence.prepareSentenceWitchPermutationWords("1", "2", "3");
   }
 
   @Test

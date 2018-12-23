@@ -2,19 +2,14 @@ package anagram;
 
 import java.util.List;
 
-public class Model {
+public class PhaseControl {
 
   private boolean letterDeleted;
   private boolean anagramLetterIsEmpty;
   private List<String> lettersToUse;
 
-
   public boolean isPossibleProcessDeeper() {
     return letterDeleted && !anagramLetterIsEmpty;
-  }
-
-  public boolean isLetterDeleted() {
-    return letterDeleted;
   }
 
   public void setLetterDeleted(boolean letterDeleted) {
@@ -29,7 +24,7 @@ public class Model {
     this.anagramLetterIsEmpty = anagramLetterIsEmpty;
   }
 
-  public List<String> getLettersToUse() {
+  public List<String> getAvailabeLetters() {
     return lettersToUse;
   }
 
@@ -39,7 +34,7 @@ public class Model {
 
   @Override
   public String toString() {
-    final StringBuilder sb = new StringBuilder("Model{");
+    final StringBuilder sb = new StringBuilder("PhaseControl{");
     sb.append("letterDeleted=").append(letterDeleted);
     sb.append(", anagramLetterIsEmpty=").append(anagramLetterIsEmpty);
     sb.append('}');

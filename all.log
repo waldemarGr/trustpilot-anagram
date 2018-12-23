@@ -1,275 +1,322 @@
-2018-12-23 15:35:42.926 [main] INFO  anagram.Letters - words: [e, e, ease, eases, easiest, easines, easing, east, east, easts, eat, eaten, eating, eats, eave, eaves, efete, efie, efigies, efusive, efusivenes, eg, eging, egis, egs, eh, eight, eighten, eightens, eightenth, eightenths, eighth, eighths, eighties, eightieth, eightieths, eights, einstein, einsteins, eisenstein, eng, engage, engages, engaging, engine, engines, enif, ensign, ensigns, ensue, ensues, ensuing, entente, ententes, enthuse, enthuses, enthusiast, enthusiasts, enthusing, entities, enui, envies, envisage, envisages, envisaging, es, es, esau, esen, esene, esie, estate, estates, estes, esthete, esthetes, eta, eta, ethan, etna, eu, eugene, eugenia, eugenie, euthanasia, eva, evan, evans, evasive, evasivenes, eve, eve, even, evenes, evenest, evening, evenings, evens, event, events, eventuate, eventuates, eventuating, eves, evian, evita, f, f, fa, fag, fagin, faging, fags, fain, fainest, faint, faintest, fainting, faintnes, faints, faith, faith, faiths, fan, fang, fangs, fanie, fanies, faning, fans, fantasies, fast, fasten, fastening, fastenings, fastens, fastest, fasting, fastnes, fastneses, fasts, fat, fatah, fate, faten, fatening, fatens, fates, fates, fatest, faties, fatiest, fatigue, fatigues, fatiguing, fating, fatnes, fats, faun, fauna, faunae, faunas, fauns, faust, faustian, faustus, fe, fe, feast, feasting, feasts, feat, feats, feign, feigning, feigns, feint, feinting, feints, feistiest, fen, fenian, fens, fes, fest, festive, festivities, fests, fet, feta, feting, fetish, fetishes, fetishist, fetishists, fetus, fetuses, fiat, fiat, fiats, fie, fief, fiefs, fiesta, fiestas, fife, fifes, fiften, fiftens, fiftenth, fiftenths, fifth, fifths, fifties, fiftieth, fiftieths, fig, fight, fighting, fights, figs, fiji, fijian, fijians, fin, fin, fine, finegan, finenes, fines, finese, fineses, finesing, finest, finiest, fining, finis, finises, finish, finish, finishes, finishing, finite, fins, fins, fish, fishes, fishiest, fishing, fishnet, fishnets, fist, fists, fit, fitest, fiting, fitings, fitnes, fits, five, fives, fuentes, fugitive, fugitives, fugue, fugues, fuji, fujitsu, fun, funafuti, funest, fungi, fungus, funguses, funies, funiest, funines, fus, fuse, fuses, fuses, fushun, fusiest, fusines, fusing, fusing, fustian, fustiest, i, i, ian, if, ifiest, ifs, ignatius, ignite, ignites, igniting, iguana, iguanas, iguasu, in, in, in, ina, inane, inanest, inanities, inate, inatentive, ines, infant, infants, infatuate, infatuates, infatuating, infest, infesting, infests, infighting, infinite, infinities, infinitive, infinitives, infuse, infuses, infusing, ing, inge, ingest, ingesting, ingests, ining, inings, initiate, initiates, initiating, initiative, initiatives, ins, ins, insane, insanest, insensate, insensitive, insentient, inset, inseting, insets, insight, insights, insigne, insignes, insignia, insignias, insinuate, insinuates, insinuating, insist, insistent, insisting, insists, instant, instants, instigate, instigates, instigating, institute, institutes, instituting, intense, intensest, intensifies, intensities, intensive, intensives, intent, intentnes, intents, intestate, intestine, intestines, intuit, intuiting, intuitive, intuits, inuit, inuits, invasive, inveigh, inveighing, inveighs, invent, inventing, inventive, inventivenes, invents, invest, investigate, investigates, investigating, investigative, investing, invests, invite, invites, inviting, is, isaiah, isfahan, isiah, isis, isue, isues, isuing, it, it, its, itunes, iva, ivan, ives, ivies, j, j, jag, jags, jain, jan, jana, jana, jane, janet, janete, janie, janie, janine, janis, jansen, jansenist, janus, jaunt, jauntiest, jauntines, jaunting, jaunts, java, javanese, javas, jean, jeane, jeanete, jeanete, jeanie, jeanie, jeanine, jeanine, jeans, jef, jejune, jena, jenie, jenings, jensen, jes, jese, jesie, jest, jesting, jests, jesuit, jesuits, jesus, jet, jeties, jeting, jets, jeves, jifies, jig, jiging, jigs, jin, jinah, jinan, jini, jinis, jins, jiujitsu, jive, jives, jiving, juan, juana, juanita, jug, juging, jugs, jujitsu, jujutsu, jun, june, juneau, junes, jung, jungian, junta, juntas, just, justest, justifies, justin, justine, justinian, justnes, jut, jute, juting, juts] 
+2018-12-23 18:19:12.167 [main] INFO  anagram.Letters - words: [e, e, ease, eases, easiest, easines, easing, east, east, easts, eat, eaten, eating, eats, eave, eaves, efete, efie, efigies, efusive, efusivenes, eg, eging, egis, egs, eh, eight, eighten, eightens, eightenth, eightenths, eighth, eighths, eighties, eightieth, eightieths, eights, einstein, einsteins, eisenstein, eng, engage, engages, engaging, engine, engines, enif, ensign, ensigns, ensue, ensues, ensuing, entente, ententes, enthuse, enthuses, enthusiast, enthusiasts, enthusing, entities, enui, envies, envisage, envisages, envisaging, es, es, esau, esen, esene, esie, estate, estates, estes, esthete, esthetes, eta, eta, ethan, etna, eu, eugene, eugenia, eugenie, euthanasia, eva, evan, evans, evasive, evasivenes, eve, eve, even, evenes, evenest, evening, evenings, evens, event, events, eventuate, eventuates, eventuating, eves, evian, evita, f, f, fa, fag, fagin, faging, fags, fain, fainest, faint, faintest, fainting, faintnes, faints, faith, faith, faiths, fan, fang, fangs, fanie, fanies, faning, fans, fantasies, fast, fasten, fastening, fastenings, fastens, fastest, fasting, fastnes, fastneses, fasts, fat, fatah, fate, faten, fatening, fatens, fates, fates, fatest, faties, fatiest, fatigue, fatigues, fatiguing, fating, fatnes, fats, faun, fauna, faunae, faunas, fauns, faust, faustian, faustus, fe, fe, feast, feasting, feasts, feat, feats, feign, feigning, feigns, feint, feinting, feints, feistiest, fen, fenian, fens, fes, fest, festive, festivities, fests, fet, feta, feting, fetish, fetishes, fetishist, fetishists, fetus, fetuses, fiat, fiat, fiats, fie, fief, fiefs, fiesta, fiestas, fife, fifes, fiften, fiftens, fiftenth, fiftenths, fifth, fifths, fifties, fiftieth, fiftieths, fig, fight, fighting, fights, figs, fiji, fijian, fijians, fin, fin, fine, finegan, finenes, fines, finese, fineses, finesing, finest, finiest, fining, finis, finises, finish, finish, finishes, finishing, finite, fins, fins, fish, fishes, fishiest, fishing, fishnet, fishnets, fist, fists, fit, fitest, fiting, fitings, fitnes, fits, five, fives, fuentes, fugitive, fugitives, fugue, fugues, fuji, fujitsu, fun, funafuti, funest, fungi, fungus, funguses, funies, funiest, funines, fus, fuse, fuses, fuses, fushun, fusiest, fusines, fusing, fusing, fustian, fustiest, i, i, ian, if, ifiest, ifs, ignatius, ignite, ignites, igniting, iguana, iguanas, iguasu, in, in, in, ina, inane, inanest, inanities, inate, inatentive, ines, infant, infants, infatuate, infatuates, infatuating, infest, infesting, infests, infighting, infinite, infinities, infinitive, infinitives, infuse, infuses, infusing, ing, inge, ingest, ingesting, ingests, ining, inings, initiate, initiates, initiating, initiative, initiatives, ins, ins, insane, insanest, insensate, insensitive, insentient, inset, inseting, insets, insight, insights, insigne, insignes, insignia, insignias, insinuate, insinuates, insinuating, insist, insistent, insisting, insists, instant, instants, instigate, instigates, instigating, institute, institutes, instituting, intense, intensest, intensifies, intensities, intensive, intensives, intent, intentnes, intents, intestate, intestine, intestines, intuit, intuiting, intuitive, intuits, inuit, inuits, invasive, inveigh, inveighing, inveighs, invent, inventing, inventive, inventivenes, invents, invest, investigate, investigates, investigating, investigative, investing, invests, invite, invites, inviting, is, isaiah, isfahan, isiah, isis, isue, isues, isuing, it, it, its, itunes, iva, ivan, ives, ivies, j, j, jag, jags, jain, jan, jana, jana, jane, janet, janete, janie, janie, janine, janis, jansen, jansenist, janus, jaunt, jauntiest, jauntines, jaunting, jaunts, java, javanese, javas, jean, jeane, jeanete, jeanete, jeanie, jeanie, jeanine, jeanine, jeans, jef, jejune, jena, jenie, jenings, jensen, jes, jese, jesie, jest, jesting, jests, jesuit, jesuits, jesus, jet, jeties, jeting, jets, jeves, jifies, jig, jiging, jigs, jin, jinah, jinan, jini, jinis, jins, jiujitsu, jive, jives, jiving, juan, juana, juanita, jug, juging, jugs, jujitsu, jujutsu, jun, june, juneau, junes, jung, jungian, junta, juntas, just, justest, justifies, justin, justine, justinian, justnes, jut, jute, juting, juts] 
  number of words: 519 
 letters [v, u, t, s, n, j, i, i, h, g, f, e, a, a] 
 numbers of letter 14
-2018-12-23 15:35:43.416 [main] INFO  anagram.Letters - Candidate to win:   e faith ivan jugs 
-2018-12-23 15:35:43.466 [main] INFO  anagram.Letters - Candidate to win:   e faith jugs ivan 
-2018-12-23 15:35:43.482 [main] INFO  anagram.Letters - Candidate to win:   e faith ivan jugs 
-2018-12-23 15:35:43.498 [main] INFO  anagram.Letters - Candidate to win:   e faith jugs ivan 
-2018-12-23 15:35:43.498 [main] INFO  anagram.Letters - Candidate to win:   e faiths iva jung 
-2018-12-23 15:35:43.513 [main] INFO  anagram.Letters - Candidate to win:   e faiths ivan jug 
-2018-12-23 15:35:43.513 [main] INFO  anagram.Letters - Candidate to win:   e faiths jug ivan 
-2018-12-23 15:35:43.529 [main] INFO  anagram.Letters - Candidate to win:   e faiths jung iva 
-2018-12-23 15:35:44.019 [main] INFO  anagram.Letters - Candidate to win:   e fight iva janus 
-2018-12-23 15:35:44.019 [main] INFO  anagram.Letters - Candidate to win:   e fight janus iva 
-2018-12-23 15:35:44.035 [main] INFO  anagram.Letters - Candidate to win:   e fights iva juan 
-2018-12-23 15:35:44.050 [main] INFO  anagram.Letters - Candidate to win:   e fights juan iva 
-2018-12-23 15:35:44.929 [main] INFO  anagram.Letters - Candidate to win:   e iva faiths jung 
-2018-12-23 15:35:44.929 [main] INFO  anagram.Letters - Candidate to win:   e iva fight janus 
-2018-12-23 15:35:44.929 [main] INFO  anagram.Letters - Candidate to win:   e iva fights juan 
-2018-12-23 15:35:44.961 [main] INFO  anagram.Letters - Candidate to win:   e iva janus fight 
-2018-12-23 15:35:44.961 [main] INFO  anagram.Letters - Candidate to win:   e iva juan fights 
-2018-12-23 15:35:44.961 [main] INFO  anagram.Letters - Candidate to win:   e iva jung faiths 
-2018-12-23 15:35:44.961 [main] INFO  anagram.Letters - Candidate to win:   e ivan faith jugs 
-2018-12-23 15:35:44.976 [main] INFO  anagram.Letters - Candidate to win:   e ivan faith jugs 
-2018-12-23 15:35:44.976 [main] INFO  anagram.Letters - Candidate to win:   e ivan faiths jug 
-2018-12-23 15:35:44.992 [main] INFO  anagram.Letters - Candidate to win:   e ivan jug faiths 
-2018-12-23 15:35:44.992 [main] INFO  anagram.Letters - Candidate to win:   e ivan jugs faith 
-2018-12-23 15:35:44.992 [main] INFO  anagram.Letters - Candidate to win:   e ivan jugs faith 
-2018-12-23 15:35:45.166 [main] INFO  anagram.Letters - Candidate to win:   e janus fight iva 
-2018-12-23 15:35:45.182 [main] INFO  anagram.Letters - Candidate to win:   e janus iva fight 
-2018-12-23 15:35:45.387 [main] INFO  anagram.Letters - Candidate to win:   e juan fights iva 
-2018-12-23 15:35:45.403 [main] INFO  anagram.Letters - Candidate to win:   e juan iva fights 
-2018-12-23 15:35:45.434 [main] INFO  anagram.Letters - Candidate to win:   e jug faiths ivan 
-2018-12-23 15:35:45.481 [main] INFO  anagram.Letters - Candidate to win:   e jug ivan faiths 
-2018-12-23 15:35:45.481 [main] INFO  anagram.Letters - Candidate to win:   e jugs faith ivan 
-2018-12-23 15:35:45.481 [main] INFO  anagram.Letters - Candidate to win:   e jugs faith ivan 
-2018-12-23 15:35:45.513 [main] INFO  anagram.Letters - Candidate to win:   e jugs ivan faith 
-2018-12-23 15:35:45.513 [main] INFO  anagram.Letters - Candidate to win:   e jugs ivan faith 
-2018-12-23 15:35:45.548 [main] INFO  anagram.Letters - Candidate to win:   e jung faiths iva 
-2018-12-23 15:35:45.564 [main] INFO  anagram.Letters - Candidate to win:   e jung iva faiths 
-2018-12-23 15:35:45.844 [main] INFO  anagram.Letters - Candidate to win:   e faith ivan jugs 
-2018-12-23 15:35:45.844 [main] INFO  anagram.Letters - Candidate to win:   e faith jugs ivan 
-2018-12-23 15:35:45.859 [main] INFO  anagram.Letters - Candidate to win:   e faith ivan jugs 
-2018-12-23 15:35:45.859 [main] INFO  anagram.Letters - Candidate to win:   e faith jugs ivan 
-2018-12-23 15:35:45.859 [main] INFO  anagram.Letters - Candidate to win:   e faiths iva jung 
-2018-12-23 15:35:45.859 [main] INFO  anagram.Letters - Candidate to win:   e faiths ivan jug 
-2018-12-23 15:35:45.859 [main] INFO  anagram.Letters - Candidate to win:   e faiths jug ivan 
-2018-12-23 15:35:45.875 [main] INFO  anagram.Letters - Candidate to win:   e faiths jung iva 
-2018-12-23 15:35:46.031 [main] INFO  anagram.Letters - Candidate to win:   e fight iva janus 
-2018-12-23 15:35:46.031 [main] INFO  anagram.Letters - Candidate to win:   e fight janus iva 
-2018-12-23 15:35:46.047 [main] INFO  anagram.Letters - Candidate to win:   e fights iva juan 
-2018-12-23 15:35:46.047 [main] INFO  anagram.Letters - Candidate to win:   e fights juan iva 
-2018-12-23 15:35:46.787 [main] INFO  anagram.Letters - Candidate to win:   e iva faiths jung 
-2018-12-23 15:35:46.803 [main] INFO  anagram.Letters - Candidate to win:   e iva fight janus 
-2018-12-23 15:35:46.803 [main] INFO  anagram.Letters - Candidate to win:   e iva fights juan 
-2018-12-23 15:35:46.843 [main] INFO  anagram.Letters - Candidate to win:   e iva janus fight 
-2018-12-23 15:35:46.851 [main] INFO  anagram.Letters - Candidate to win:   e iva juan fights 
-2018-12-23 15:35:46.851 [main] INFO  anagram.Letters - Candidate to win:   e iva jung faiths 
-2018-12-23 15:35:46.867 [main] INFO  anagram.Letters - Candidate to win:   e ivan faith jugs 
-2018-12-23 15:35:46.867 [main] INFO  anagram.Letters - Candidate to win:   e ivan faith jugs 
-2018-12-23 15:35:46.867 [main] INFO  anagram.Letters - Candidate to win:   e ivan faiths jug 
-2018-12-23 15:35:46.898 [main] INFO  anagram.Letters - Candidate to win:   e ivan jug faiths 
-2018-12-23 15:35:46.898 [main] INFO  anagram.Letters - Candidate to win:   e ivan jugs faith 
-2018-12-23 15:35:46.898 [main] INFO  anagram.Letters - Candidate to win:   e ivan jugs faith 
-2018-12-23 15:35:47.136 [main] INFO  anagram.Letters - Candidate to win:   e janus fight iva 
-2018-12-23 15:35:47.136 [main] INFO  anagram.Letters - Candidate to win:   e janus iva fight 
-2018-12-23 15:35:47.279 [main] INFO  anagram.Letters - Candidate to win:   e juan fights iva 
-2018-12-23 15:35:47.279 [main] INFO  anagram.Letters - Candidate to win:   e juan iva fights 
-2018-12-23 15:35:47.310 [main] INFO  anagram.Letters - Candidate to win:   e jug faiths ivan 
-2018-12-23 15:35:47.326 [main] INFO  anagram.Letters - Candidate to win:   e jug ivan faiths 
-2018-12-23 15:35:47.330 [main] INFO  anagram.Letters - Candidate to win:   e jugs faith ivan 
-2018-12-23 15:35:47.330 [main] INFO  anagram.Letters - Candidate to win:   e jugs faith ivan 
-2018-12-23 15:35:47.338 [main] INFO  anagram.Letters - Candidate to win:   e jugs ivan faith 
-2018-12-23 15:35:47.338 [main] INFO  anagram.Letters - Candidate to win:   e jugs ivan faith 
-2018-12-23 15:35:47.355 [main] INFO  anagram.Letters - Candidate to win:   e jung faiths iva 
-2018-12-23 15:35:47.355 [main] INFO  anagram.Letters - Candidate to win:   e jung iva faiths 
-2018-12-23 15:35:48.086 [main] INFO  anagram.Letters - Candidate to win:   eat fish iva jung 
-2018-12-23 15:35:48.086 [main] INFO  anagram.Letters - Candidate to win:   eat fish ivan jug 
-2018-12-23 15:35:48.090 [main] INFO  anagram.Letters - Candidate to win:   eat fish jug ivan 
-2018-12-23 15:35:48.090 [main] INFO  anagram.Letters - Candidate to win:   eat fish jung iva 
-2018-12-23 15:35:48.285 [main] INFO  anagram.Letters - Candidate to win:   eat iva fish jung 
-2018-12-23 15:35:48.297 [main] INFO  anagram.Letters - Candidate to win:   eat iva jung fish 
-2018-12-23 15:35:48.301 [main] INFO  anagram.Letters - Candidate to win:   eat ivan fish jug 
-2018-12-23 15:35:48.305 [main] INFO  anagram.Letters - Candidate to win:   eat ivan jug fish 
-2018-12-23 15:35:48.424 [main] INFO  anagram.Letters - Candidate to win:   eat jug fish ivan 
-2018-12-23 15:35:48.424 [main] INFO  anagram.Letters - Candidate to win:   eat jug ivan fish 
-2018-12-23 15:35:48.456 [main] INFO  anagram.Letters - Candidate to win:   eat jung fish iva 
-2018-12-23 15:35:48.456 [main] INFO  anagram.Letters - Candidate to win:   eat jung iva fish 
-2018-12-23 15:35:48.815 [main] INFO  anagram.Letters - Candidate to win:   eg faiths iva jun 
-2018-12-23 15:35:48.831 [main] INFO  anagram.Letters - Candidate to win:   eg faiths jun iva 
-2018-12-23 15:35:48.941 [main] INFO  anagram.Letters - Candidate to win:   eg fish iva jaunt 
-2018-12-23 15:35:48.941 [main] INFO  anagram.Letters - Candidate to win:   eg fish iva junta 
-2018-12-23 15:35:48.957 [main] INFO  anagram.Letters - Candidate to win:   eg fish jaunt iva 
-2018-12-23 15:35:48.957 [main] INFO  anagram.Letters - Candidate to win:   eg fish junta iva 
-2018-12-23 15:35:49.349 [main] INFO  anagram.Letters - Candidate to win:   eg iva faiths jun 
-2018-12-23 15:35:49.357 [main] INFO  anagram.Letters - Candidate to win:   eg iva fish jaunt 
-2018-12-23 15:35:49.357 [main] INFO  anagram.Letters - Candidate to win:   eg iva fish junta 
-2018-12-23 15:35:49.365 [main] INFO  anagram.Letters - Candidate to win:   eg iva jaunt fish 
-2018-12-23 15:35:49.365 [main] INFO  anagram.Letters - Candidate to win:   eg iva jun faiths 
-2018-12-23 15:35:49.365 [main] INFO  anagram.Letters - Candidate to win:   eg iva junta fish 
-2018-12-23 15:35:49.490 [main] INFO  anagram.Letters - Candidate to win:   eg jaunt fish iva 
-2018-12-23 15:35:49.490 [main] INFO  anagram.Letters - Candidate to win:   eg jaunt iva fish 
-2018-12-23 15:35:49.568 [main] INFO  anagram.Letters - Candidate to win:   eg jun faiths iva 
-2018-12-23 15:35:49.584 [main] INFO  anagram.Letters - Candidate to win:   eg jun iva faiths 
-2018-12-23 15:35:49.584 [main] INFO  anagram.Letters - Candidate to win:   eg junta fish iva 
-2018-12-23 15:35:49.584 [main] INFO  anagram.Letters - Candidate to win:   eg junta iva fish 
-2018-12-23 15:35:49.912 [main] INFO  anagram.Letters - Candidate to win:   egs faith iva jun 
-2018-12-23 15:35:49.912 [main] INFO  anagram.Letters - Candidate to win:   egs faith jun iva 
-2018-12-23 15:35:49.927 [main] INFO  anagram.Letters - Candidate to win:   egs faith iva jun 
-2018-12-23 15:35:49.927 [main] INFO  anagram.Letters - Candidate to win:   egs faith jun iva 
-2018-12-23 15:35:50.115 [main] INFO  anagram.Letters - Candidate to win:   egs iva faith jun 
-2018-12-23 15:35:50.115 [main] INFO  anagram.Letters - Candidate to win:   egs iva faith jun 
-2018-12-23 15:35:50.131 [main] INFO  anagram.Letters - Candidate to win:   egs iva jun faith 
-2018-12-23 15:35:50.131 [main] INFO  anagram.Letters - Candidate to win:   egs iva jun faith 
-2018-12-23 15:35:50.226 [main] INFO  anagram.Letters - Candidate to win:   egs jun faith iva 
-2018-12-23 15:35:50.226 [main] INFO  anagram.Letters - Candidate to win:   egs jun faith iva 
-2018-12-23 15:35:50.241 [main] INFO  anagram.Letters - Candidate to win:   egs jun iva faith 
-2018-12-23 15:35:50.241 [main] INFO  anagram.Letters - Candidate to win:   egs jun iva faith 
-2018-12-23 15:35:50.329 [main] INFO  anagram.Letters - Candidate to win:   eh fag iva justin 
-2018-12-23 15:35:50.329 [main] INFO  anagram.Letters - Candidate to win:   eh fag justin iva 
-2018-12-23 15:35:50.344 [main] INFO  anagram.Letters - Candidate to win:   eh fagin iva just 
-2018-12-23 15:35:50.344 [main] INFO  anagram.Letters - Candidate to win:   eh fagin iva juts 
-2018-12-23 15:35:50.344 [main] INFO  anagram.Letters - Candidate to win:   eh fagin just iva 
-2018-12-23 15:35:50.344 [main] INFO  anagram.Letters - Candidate to win:   eh fagin juts iva 
-2018-12-23 15:35:50.376 [main] INFO  anagram.Letters - Candidate to win:   eh faint iva jugs 
-2018-12-23 15:35:50.376 [main] INFO  anagram.Letters - Candidate to win:   eh faint jugs iva 
-2018-12-23 15:35:50.376 [main] INFO  anagram.Letters - Candidate to win:   eh faints iva jug 
-2018-12-23 15:35:50.376 [main] INFO  anagram.Letters - Candidate to win:   eh faints jug iva 
-2018-12-23 15:35:50.469 [main] INFO  anagram.Letters - Candidate to win:   eh faust ivan jig 
-2018-12-23 15:35:50.485 [main] INFO  anagram.Letters - Candidate to win:   eh faust jig ivan 
-2018-12-23 15:35:50.485 [main] INFO  anagram.Letters - Candidate to win:   eh fiat ivan jugs 
-2018-12-23 15:35:50.501 [main] INFO  anagram.Letters - Candidate to win:   eh fiat jugs ivan 
-2018-12-23 15:35:50.501 [main] INFO  anagram.Letters - Candidate to win:   eh fiat ivan jugs 
-2018-12-23 15:35:50.501 [main] INFO  anagram.Letters - Candidate to win:   eh fiat jugs ivan 
-2018-12-23 15:35:50.516 [main] INFO  anagram.Letters - Candidate to win:   eh fiats iva jung 
-2018-12-23 15:35:50.516 [main] INFO  anagram.Letters - Candidate to win:   eh fiats ivan jug 
-2018-12-23 15:35:50.516 [main] INFO  anagram.Letters - Candidate to win:   eh fiats jug ivan 
-2018-12-23 15:35:50.516 [main] INFO  anagram.Letters - Candidate to win:   eh fiats jung iva 
-2018-12-23 15:35:50.532 [main] INFO  anagram.Letters - Candidate to win:   eh fig iva jaunts 
-2018-12-23 15:35:50.532 [main] INFO  anagram.Letters - Candidate to win:   eh fig iva juntas 
-2018-12-23 15:35:50.532 [main] INFO  anagram.Letters - Candidate to win:   eh fig jaunts iva 
-2018-12-23 15:35:50.532 [main] INFO  anagram.Letters - Candidate to win:   eh fig juntas iva 
-2018-12-23 15:35:50.548 [main] INFO  anagram.Letters - Candidate to win:   eh figs iva jaunt 
-2018-12-23 15:35:50.548 [main] INFO  anagram.Letters - Candidate to win:   eh figs iva junta 
-2018-12-23 15:35:50.548 [main] INFO  anagram.Letters - Candidate to win:   eh figs jaunt iva 
-2018-12-23 15:35:50.563 [main] INFO  anagram.Letters - Candidate to win:   eh figs junta iva 
-2018-12-23 15:35:50.672 [main] INFO  anagram.Letters - Candidate to win:   eh fungi it javas 
-2018-12-23 15:35:50.672 [main] INFO  anagram.Letters - Candidate to win:   eh fungi it javas 
-2018-12-23 15:35:50.672 [main] INFO  anagram.Letters - Candidate to win:   eh fungi its java 
-2018-12-23 15:35:50.672 [main] INFO  anagram.Letters - Candidate to win:   eh fungi java its 
-2018-12-23 15:35:50.672 [main] INFO  anagram.Letters - Candidate to win:   eh fungi javas it 
-2018-12-23 15:35:50.672 [main] INFO  anagram.Letters - Candidate to win:   eh fungi javas it 
-2018-12-23 15:35:50.672 [main] INFO  anagram.Letters - Candidate to win:   eh fusing it java 
-2018-12-23 15:35:50.672 [main] INFO  anagram.Letters - Candidate to win:   eh fusing it java 
-2018-12-23 15:35:50.688 [main] INFO  anagram.Letters - Candidate to win:   eh fusing java it 
-2018-12-23 15:35:50.688 [main] INFO  anagram.Letters - Candidate to win:   eh fusing java it 
-2018-12-23 15:35:50.688 [main] INFO  anagram.Letters - Candidate to win:   eh fusing it java 
-2018-12-23 15:35:50.688 [main] INFO  anagram.Letters - Candidate to win:   eh fusing it java 
-2018-12-23 15:35:50.688 [main] INFO  anagram.Letters - Candidate to win:   eh fusing java it 
-2018-12-23 15:35:50.688 [main] INFO  anagram.Letters - Candidate to win:   eh fusing java it 
-2018-12-23 15:35:51.001 [main] INFO  anagram.Letters - Candidate to win:   eh it fungi javas 
-2018-12-23 15:35:51.001 [main] INFO  anagram.Letters - Candidate to win:   eh it fusing java 
-2018-12-23 15:35:51.001 [main] INFO  anagram.Letters - Candidate to win:   eh it fusing java 
-2018-12-23 15:35:51.016 [main] INFO  anagram.Letters - Candidate to win:   eh it java fusing 
-2018-12-23 15:35:51.016 [main] INFO  anagram.Letters - Candidate to win:   eh it java fusing 
-2018-12-23 15:35:51.016 [main] INFO  anagram.Letters - Candidate to win:   eh it javas fungi 
-2018-12-23 15:35:51.016 [main] INFO  anagram.Letters - Candidate to win:   eh it fungi javas 
-2018-12-23 15:35:51.016 [main] INFO  anagram.Letters - Candidate to win:   eh it fusing java 
-2018-12-23 15:35:51.016 [main] INFO  anagram.Letters - Candidate to win:   eh it fusing java 
-2018-12-23 15:35:51.032 [main] INFO  anagram.Letters - Candidate to win:   eh it java fusing 
-2018-12-23 15:35:51.032 [main] INFO  anagram.Letters - Candidate to win:   eh it java fusing 
-2018-12-23 15:35:51.032 [main] INFO  anagram.Letters - Candidate to win:   eh it javas fungi 
-2018-12-23 15:35:51.047 [main] INFO  anagram.Letters - Candidate to win:   eh its fungi java 
-2018-12-23 15:35:51.063 [main] INFO  anagram.Letters - Candidate to win:   eh its java fungi 
-2018-12-23 15:35:51.063 [main] INFO  anagram.Letters - Candidate to win:   eh iva fag justin 
-2018-12-23 15:35:51.063 [main] INFO  anagram.Letters - Candidate to win:   eh iva fagin just 
-2018-12-23 15:35:51.063 [main] INFO  anagram.Letters - Candidate to win:   eh iva fagin juts 
-2018-12-23 15:35:51.063 [main] INFO  anagram.Letters - Candidate to win:   eh iva faint jugs 
-2018-12-23 15:35:51.063 [main] INFO  anagram.Letters - Candidate to win:   eh iva faints jug 
-2018-12-23 15:35:51.063 [main] INFO  anagram.Letters - Candidate to win:   eh iva fiats jung 
-2018-12-23 15:35:51.063 [main] INFO  anagram.Letters - Candidate to win:   eh iva fig jaunts 
-2018-12-23 15:35:51.063 [main] INFO  anagram.Letters - Candidate to win:   eh iva fig juntas 
-2018-12-23 15:35:51.063 [main] INFO  anagram.Letters - Candidate to win:   eh iva figs jaunt 
-2018-12-23 15:35:51.063 [main] INFO  anagram.Letters - Candidate to win:   eh iva figs junta 
-2018-12-23 15:35:51.094 [main] INFO  anagram.Letters - Candidate to win:   eh iva jaunt figs 
-2018-12-23 15:35:51.094 [main] INFO  anagram.Letters - Candidate to win:   eh iva jaunts fig 
-2018-12-23 15:35:51.094 [main] INFO  anagram.Letters - Candidate to win:   eh iva jug faints 
-2018-12-23 15:35:51.094 [main] INFO  anagram.Letters - Candidate to win:   eh iva jugs faint 
-2018-12-23 15:35:51.094 [main] INFO  anagram.Letters - Candidate to win:   eh iva jung fiats 
-2018-12-23 15:35:51.094 [main] INFO  anagram.Letters - Candidate to win:   eh iva junta figs 
-2018-12-23 15:35:51.094 [main] INFO  anagram.Letters - Candidate to win:   eh iva juntas fig 
-2018-12-23 15:35:51.094 [main] INFO  anagram.Letters - Candidate to win:   eh iva just fagin 
-2018-12-23 15:35:51.094 [main] INFO  anagram.Letters - Candidate to win:   eh iva justin fag 
-2018-12-23 15:35:51.094 [main] INFO  anagram.Letters - Candidate to win:   eh iva juts fagin 
-2018-12-23 15:35:51.110 [main] INFO  anagram.Letters - Candidate to win:   eh ivan faust jig 
-2018-12-23 15:35:51.110 [main] INFO  anagram.Letters - Candidate to win:   eh ivan fiat jugs 
-2018-12-23 15:35:51.110 [main] INFO  anagram.Letters - Candidate to win:   eh ivan fiat jugs 
-2018-12-23 15:35:51.110 [main] INFO  anagram.Letters - Candidate to win:   eh ivan fiats jug 
-2018-12-23 15:35:51.110 [main] INFO  anagram.Letters - Candidate to win:   eh ivan jig faust 
-2018-12-23 15:35:51.110 [main] INFO  anagram.Letters - Candidate to win:   eh ivan jug fiats 
-2018-12-23 15:35:51.126 [main] INFO  anagram.Letters - Candidate to win:   eh ivan jugs fiat 
-2018-12-23 15:35:51.126 [main] INFO  anagram.Letters - Candidate to win:   eh ivan jugs fiat 
-2018-12-23 15:35:51.282 [main] INFO  anagram.Letters - Candidate to win:   eh jaunt figs iva 
-2018-12-23 15:35:51.282 [main] INFO  anagram.Letters - Candidate to win:   eh jaunt iva figs 
-2018-12-23 15:35:51.282 [main] INFO  anagram.Letters - Candidate to win:   eh jaunts fig iva 
-2018-12-23 15:35:51.282 [main] INFO  anagram.Letters - Candidate to win:   eh jaunts iva fig 
-2018-12-23 15:35:51.298 [main] INFO  anagram.Letters - Candidate to win:   eh java fungi its 
-2018-12-23 15:35:51.298 [main] INFO  anagram.Letters - Candidate to win:   eh java fusing it 
-2018-12-23 15:35:51.298 [main] INFO  anagram.Letters - Candidate to win:   eh java fusing it 
-2018-12-23 15:35:51.298 [main] INFO  anagram.Letters - Candidate to win:   eh java fusing it 
-2018-12-23 15:35:51.298 [main] INFO  anagram.Letters - Candidate to win:   eh java fusing it 
-2018-12-23 15:35:51.298 [main] INFO  anagram.Letters - Candidate to win:   eh java it fusing 
-2018-12-23 15:35:51.298 [main] INFO  anagram.Letters - Candidate to win:   eh java it fusing 
-2018-12-23 15:35:51.298 [main] INFO  anagram.Letters - Candidate to win:   eh java it fusing 
-2018-12-23 15:35:51.298 [main] INFO  anagram.Letters - Candidate to win:   eh java it fusing 
-2018-12-23 15:35:51.298 [main] INFO  anagram.Letters - Candidate to win:   eh java its fungi 
-2018-12-23 15:35:51.314 [main] INFO  anagram.Letters - Candidate to win:   eh javas fungi it 
-2018-12-23 15:35:51.314 [main] INFO  anagram.Letters - Candidate to win:   eh javas fungi it 
-2018-12-23 15:35:51.314 [main] INFO  anagram.Letters - Candidate to win:   eh javas it fungi 
-2018-12-23 15:35:51.314 [main] INFO  anagram.Letters - Candidate to win:   eh javas it fungi 
-2018-12-23 15:35:51.329 [main] INFO  anagram.Letters - Candidate to win:   eh jig faust ivan 
-2018-12-23 15:35:51.345 [main] INFO  anagram.Letters - Candidate to win:   eh jig ivan faust 
-2018-12-23 15:35:51.392 [main] INFO  anagram.Letters - Candidate to win:   eh jug faints iva 
-2018-12-23 15:35:51.407 [main] INFO  anagram.Letters - Candidate to win:   eh jug fiats ivan 
-2018-12-23 15:35:51.407 [main] INFO  anagram.Letters - Candidate to win:   eh jug iva faints 
-2018-12-23 15:35:51.407 [main] INFO  anagram.Letters - Candidate to win:   eh jug ivan fiats 
-2018-12-23 15:35:51.407 [main] INFO  anagram.Letters - Candidate to win:   eh jugs faint iva 
-2018-12-23 15:35:51.423 [main] INFO  anagram.Letters - Candidate to win:   eh jugs fiat ivan 
-2018-12-23 15:35:51.423 [main] INFO  anagram.Letters - Candidate to win:   eh jugs fiat ivan 
-2018-12-23 15:35:51.423 [main] INFO  anagram.Letters - Candidate to win:   eh jugs iva faint 
-2018-12-23 15:35:51.423 [main] INFO  anagram.Letters - Candidate to win:   eh jugs ivan fiat 
-2018-12-23 15:35:51.423 [main] INFO  anagram.Letters - Candidate to win:   eh jugs ivan fiat 
-2018-12-23 15:35:51.439 [main] INFO  anagram.Letters - Candidate to win:   eh jung fiats iva 
-2018-12-23 15:35:51.439 [main] INFO  anagram.Letters - Candidate to win:   eh jung iva fiats 
-2018-12-23 15:35:51.454 [main] INFO  anagram.Letters - Candidate to win:   eh junta figs iva 
-2018-12-23 15:35:51.454 [main] INFO  anagram.Letters - Candidate to win:   eh junta iva figs 
-2018-12-23 15:35:51.454 [main] INFO  anagram.Letters - Candidate to win:   eh juntas fig iva 
-2018-12-23 15:35:51.454 [main] INFO  anagram.Letters - Candidate to win:   eh juntas iva fig 
-2018-12-23 15:35:51.470 [main] INFO  anagram.Letters - Candidate to win:   eh just fagin iva 
-2018-12-23 15:35:51.470 [main] INFO  anagram.Letters - Candidate to win:   eh just iva fagin 
-2018-12-23 15:35:51.470 [main] INFO  anagram.Letters - Candidate to win:   eh justin fag iva 
-2018-12-23 15:35:51.470 [main] INFO  anagram.Letters - Candidate to win:   eh justin iva fag 
-2018-12-23 15:35:51.501 [main] INFO  anagram.Letters - Candidate to win:   eh juts fagin iva 
-2018-12-23 15:35:51.501 [main] INFO  anagram.Letters - Candidate to win:   eh juts iva fagin 
-2018-12-23 15:35:51.517 [main] INFO  anagram.Letters - Candidate to win:   eight f iva janus 
-2018-12-23 15:35:51.517 [main] INFO  anagram.Letters - Candidate to win:   eight f janus iva 
-2018-12-23 15:35:51.532 [main] INFO  anagram.Letters - Candidate to win:   eight f iva janus 
-2018-12-23 15:35:51.532 [main] INFO  anagram.Letters - Candidate to win:   eight f janus iva 
-2018-12-23 15:35:51.564 [main] INFO  anagram.Letters - Candidate to win:   eight fauns iva j 
-2018-12-23 15:35:51.564 [main] INFO  anagram.Letters - Candidate to win:   eight fauns iva j 
-2018-12-23 15:35:51.564 [main] INFO  anagram.Letters - Candidate to win:   eight fauns j iva 
-2018-12-23 15:35:51.564 [main] INFO  anagram.Letters - Candidate to win:   eight fauns j iva 
-2018-12-23 15:35:51.579 [main] INFO  anagram.Letters - Candidate to win:   eight fun i javas 
-2018-12-23 15:35:51.579 [main] INFO  anagram.Letters - Candidate to win:   eight fun i javas 
-2018-12-23 15:35:51.579 [main] INFO  anagram.Letters - Candidate to win:   eight fun is java 
-2018-12-23 15:35:51.579 [main] INFO  anagram.Letters - Candidate to win:   eight fun java is 
-2018-12-23 15:35:51.579 [main] INFO  anagram.Letters - The winner is   java eight is fun
-2018-12-23 15:35:51.579 [main] INFO  anagram.Letters - The winner is   java eight is fun
-2018-12-23 15:35:51.704 [main] INFO  anagram.Letters - words: [f, f, fa, fain, fan, fans, faun, fauna, faunas, fauns, fiji, fijian, fijians, fin, fin, finis, fins, fins, fuji, fun, fus, i, i, ian, if, ifs, in, in, in, ina, ins, ins, is, isis, iva, ivan, j, j, jain, jan, jana, jana, janis, janus, java, javas, jin, jinan, jini, jinis, jins, juan, juana, jun] 
+2018-12-23 18:19:12.601 [main] INFO  anagram.Letters - Candidate to win:   e faith ivan 
+2018-12-23 18:19:12.630 [main] INFO  anagram.Letters - Candidate to win:   e faith jugs 
+2018-12-23 18:19:12.649 [main] INFO  anagram.Letters - Candidate to win:   e faith ivan 
+2018-12-23 18:19:12.663 [main] INFO  anagram.Letters - Candidate to win:   e faith jugs 
+2018-12-23 18:19:12.674 [main] INFO  anagram.Letters - Candidate to win:   e faiths iva 
+2018-12-23 18:19:12.679 [main] INFO  anagram.Letters - Candidate to win:   e faiths ivan 
+2018-12-23 18:19:12.687 [main] INFO  anagram.Letters - Candidate to win:   e faiths jug 
+2018-12-23 18:19:12.689 [main] INFO  anagram.Letters - Candidate to win:   e faiths jung 
+2018-12-23 18:19:12.983 [main] INFO  anagram.Letters - Candidate to win:   e fight iva 
+2018-12-23 18:19:12.991 [main] INFO  anagram.Letters - Candidate to win:   e fight janus 
+2018-12-23 18:19:13.002 [main] INFO  anagram.Letters - Candidate to win:   e fights iva 
+2018-12-23 18:19:13.009 [main] INFO  anagram.Letters - Candidate to win:   e fights juan 
+2018-12-23 18:19:14.143 [main] INFO  anagram.Letters - Candidate to win:   e iva faiths 
+2018-12-23 18:19:14.153 [main] INFO  anagram.Letters - Candidate to win:   e iva fight 
+2018-12-23 18:19:14.155 [main] INFO  anagram.Letters - Candidate to win:   e iva fights 
+2018-12-23 18:19:14.177 [main] INFO  anagram.Letters - Candidate to win:   e iva janus 
+2018-12-23 18:19:14.181 [main] INFO  anagram.Letters - Candidate to win:   e iva juan 
+2018-12-23 18:19:14.184 [main] INFO  anagram.Letters - Candidate to win:   e iva jung 
+2018-12-23 18:19:14.192 [main] INFO  anagram.Letters - Candidate to win:   e ivan faith 
+2018-12-23 18:19:14.198 [main] INFO  anagram.Letters - Candidate to win:   e ivan faith 
+2018-12-23 18:19:14.199 [main] INFO  anagram.Letters - Candidate to win:   e ivan faiths 
+2018-12-23 18:19:14.218 [main] INFO  anagram.Letters - Candidate to win:   e ivan jug 
+2018-12-23 18:19:14.220 [main] INFO  anagram.Letters - Candidate to win:   e ivan jugs 
+2018-12-23 18:19:14.221 [main] INFO  anagram.Letters - Candidate to win:   e ivan jugs 
+2018-12-23 18:19:14.425 [main] INFO  anagram.Letters - Candidate to win:   e janus fight 
+2018-12-23 18:19:14.430 [main] INFO  anagram.Letters - Candidate to win:   e janus iva 
+2018-12-23 18:19:14.650 [main] INFO  anagram.Letters - Candidate to win:   e juan fights 
+2018-12-23 18:19:14.664 [main] INFO  anagram.Letters - Candidate to win:   e juan iva 
+2018-12-23 18:19:14.700 [main] INFO  anagram.Letters - Candidate to win:   e jug faiths 
+2018-12-23 18:19:14.741 [main] INFO  anagram.Letters - Candidate to win:   e jug ivan 
+2018-12-23 18:19:14.747 [main] INFO  anagram.Letters - Candidate to win:   e jugs faith 
+2018-12-23 18:19:14.749 [main] INFO  anagram.Letters - Candidate to win:   e jugs faith 
+2018-12-23 18:19:14.767 [main] INFO  anagram.Letters - Candidate to win:   e jugs ivan 
+2018-12-23 18:19:14.768 [main] INFO  anagram.Letters - Candidate to win:   e jugs ivan 
+2018-12-23 18:19:14.802 [main] INFO  anagram.Letters - Candidate to win:   e jung faiths 
+2018-12-23 18:19:14.823 [main] INFO  anagram.Letters - Candidate to win:   e jung iva 
+2018-12-23 18:19:14.903 [main] DEBUG anagram.Letters -                    e  519/0
+2018-12-23 18:19:15.060 [main] INFO  anagram.Letters - Candidate to win:   e faith ivan 
+2018-12-23 18:19:15.069 [main] INFO  anagram.Letters - Candidate to win:   e faith jugs 
+2018-12-23 18:19:15.074 [main] INFO  anagram.Letters - Candidate to win:   e faith ivan 
+2018-12-23 18:19:15.079 [main] INFO  anagram.Letters - Candidate to win:   e faith jugs 
+2018-12-23 18:19:15.087 [main] INFO  anagram.Letters - Candidate to win:   e faiths iva 
+2018-12-23 18:19:15.087 [main] INFO  anagram.Letters - Candidate to win:   e faiths ivan 
+2018-12-23 18:19:15.090 [main] INFO  anagram.Letters - Candidate to win:   e faiths jug 
+2018-12-23 18:19:15.092 [main] INFO  anagram.Letters - Candidate to win:   e faiths jung 
+2018-12-23 18:19:15.238 [main] INFO  anagram.Letters - Candidate to win:   e fight iva 
+2018-12-23 18:19:15.244 [main] INFO  anagram.Letters - Candidate to win:   e fight janus 
+2018-12-23 18:19:15.251 [main] INFO  anagram.Letters - Candidate to win:   e fights iva 
+2018-12-23 18:19:15.255 [main] INFO  anagram.Letters - Candidate to win:   e fights juan 
+2018-12-23 18:19:15.807 [main] INFO  anagram.Letters - Candidate to win:   e iva faiths 
+2018-12-23 18:19:15.817 [main] INFO  anagram.Letters - Candidate to win:   e iva fight 
+2018-12-23 18:19:15.818 [main] INFO  anagram.Letters - Candidate to win:   e iva fights 
+2018-12-23 18:19:15.831 [main] INFO  anagram.Letters - Candidate to win:   e iva janus 
+2018-12-23 18:19:15.835 [main] INFO  anagram.Letters - Candidate to win:   e iva juan 
+2018-12-23 18:19:15.838 [main] INFO  anagram.Letters - Candidate to win:   e iva jung 
+2018-12-23 18:19:15.844 [main] INFO  anagram.Letters - Candidate to win:   e ivan faith 
+2018-12-23 18:19:15.845 [main] INFO  anagram.Letters - Candidate to win:   e ivan faith 
+2018-12-23 18:19:15.846 [main] INFO  anagram.Letters - Candidate to win:   e ivan faiths 
+2018-12-23 18:19:15.860 [main] INFO  anagram.Letters - Candidate to win:   e ivan jug 
+2018-12-23 18:19:15.861 [main] INFO  anagram.Letters - Candidate to win:   e ivan jugs 
+2018-12-23 18:19:15.862 [main] INFO  anagram.Letters - Candidate to win:   e ivan jugs 
+2018-12-23 18:19:16.009 [main] INFO  anagram.Letters - Candidate to win:   e janus fight 
+2018-12-23 18:19:16.014 [main] INFO  anagram.Letters - Candidate to win:   e janus iva 
+2018-12-23 18:19:16.139 [main] INFO  anagram.Letters - Candidate to win:   e juan fights 
+2018-12-23 18:19:16.146 [main] INFO  anagram.Letters - Candidate to win:   e juan iva 
+2018-12-23 18:19:16.163 [main] INFO  anagram.Letters - Candidate to win:   e jug faiths 
+2018-12-23 18:19:16.176 [main] INFO  anagram.Letters - Candidate to win:   e jug ivan 
+2018-12-23 18:19:16.181 [main] INFO  anagram.Letters - Candidate to win:   e jugs faith 
+2018-12-23 18:19:16.181 [main] INFO  anagram.Letters - Candidate to win:   e jugs faith 
+2018-12-23 18:19:16.188 [main] INFO  anagram.Letters - Candidate to win:   e jugs ivan 
+2018-12-23 18:19:16.189 [main] INFO  anagram.Letters - Candidate to win:   e jugs ivan 
+2018-12-23 18:19:16.213 [main] INFO  anagram.Letters - Candidate to win:   e jung faiths 
+2018-12-23 18:19:16.222 [main] INFO  anagram.Letters - Candidate to win:   e jung iva 
+2018-12-23 18:19:16.280 [main] DEBUG anagram.Letters -                    e  519/0
+2018-12-23 18:19:16.280 [main] DEBUG anagram.Letters -                 ease  519/2
+2018-12-23 18:19:16.280 [main] DEBUG anagram.Letters -                eases  519/3
+2018-12-23 18:19:16.280 [main] DEBUG anagram.Letters -              easiest  519/4
+2018-12-23 18:19:16.281 [main] DEBUG anagram.Letters -              easines  519/5
+2018-12-23 18:19:16.333 [main] DEBUG anagram.Letters -               easing  519/6
+2018-12-23 18:19:16.588 [main] DEBUG anagram.Letters -                 east  519/7
+2018-12-23 18:19:16.824 [main] DEBUG anagram.Letters -                 east  519/7
+2018-12-23 18:19:16.824 [main] DEBUG anagram.Letters -                easts  519/9
+2018-12-23 18:19:16.944 [main] INFO  anagram.Letters - Candidate to win:   eat fish iva 
+2018-12-23 18:19:16.944 [main] INFO  anagram.Letters - Candidate to win:   eat fish ivan 
+2018-12-23 18:19:16.948 [main] INFO  anagram.Letters - Candidate to win:   eat fish jug 
+2018-12-23 18:19:16.950 [main] INFO  anagram.Letters - Candidate to win:   eat fish jung 
+2018-12-23 18:19:17.164 [main] INFO  anagram.Letters - Candidate to win:   eat iva fish 
+2018-12-23 18:19:17.172 [main] INFO  anagram.Letters - Candidate to win:   eat iva jung 
+2018-12-23 18:19:17.174 [main] INFO  anagram.Letters - Candidate to win:   eat ivan fish 
+2018-12-23 18:19:17.182 [main] INFO  anagram.Letters - Candidate to win:   eat ivan jug 
+2018-12-23 18:19:17.300 [main] INFO  anagram.Letters - Candidate to win:   eat jug fish 
+2018-12-23 18:19:17.309 [main] INFO  anagram.Letters - Candidate to win:   eat jug ivan 
+2018-12-23 18:19:17.330 [main] INFO  anagram.Letters - Candidate to win:   eat jung fish 
+2018-12-23 18:19:17.335 [main] INFO  anagram.Letters - Candidate to win:   eat jung iva 
+2018-12-23 18:19:17.336 [main] DEBUG anagram.Letters -                  eat  519/10
+2018-12-23 18:19:17.336 [main] DEBUG anagram.Letters -                eaten  519/11
+2018-12-23 18:19:17.372 [main] DEBUG anagram.Letters -               eating  519/12
+2018-12-23 18:19:17.612 [main] DEBUG anagram.Letters -                 eats  519/13
+2018-12-23 18:19:17.612 [main] DEBUG anagram.Letters -                 eave  519/14
+2018-12-23 18:19:17.612 [main] DEBUG anagram.Letters -                eaves  519/15
+2018-12-23 18:19:17.612 [main] DEBUG anagram.Letters -                efete  519/16
+2018-12-23 18:19:17.612 [main] DEBUG anagram.Letters -                 efie  519/17
+2018-12-23 18:19:17.613 [main] DEBUG anagram.Letters -              efigies  519/18
+2018-12-23 18:19:17.613 [main] DEBUG anagram.Letters -              efusive  519/19
+2018-12-23 18:19:17.613 [main] DEBUG anagram.Letters -           efusivenes  519/20
+2018-12-23 18:19:17.720 [main] INFO  anagram.Letters - Candidate to win:   eg faiths iva 
+2018-12-23 18:19:17.723 [main] INFO  anagram.Letters - Candidate to win:   eg faiths jun 
+2018-12-23 18:19:17.837 [main] INFO  anagram.Letters - Candidate to win:   eg fish iva 
+2018-12-23 18:19:17.837 [main] INFO  anagram.Letters - Candidate to win:   eg fish iva 
+2018-12-23 18:19:17.840 [main] INFO  anagram.Letters - Candidate to win:   eg fish jaunt 
+2018-12-23 18:19:17.843 [main] INFO  anagram.Letters - Candidate to win:   eg fish junta 
+2018-12-23 18:19:18.192 [main] INFO  anagram.Letters - Candidate to win:   eg iva faiths 
+2018-12-23 18:19:18.197 [main] INFO  anagram.Letters - Candidate to win:   eg iva fish 
+2018-12-23 18:19:18.198 [main] INFO  anagram.Letters - Candidate to win:   eg iva fish 
+2018-12-23 18:19:18.207 [main] INFO  anagram.Letters - Candidate to win:   eg iva jaunt 
+2018-12-23 18:19:18.210 [main] INFO  anagram.Letters - Candidate to win:   eg iva jun 
+2018-12-23 18:19:18.211 [main] INFO  anagram.Letters - Candidate to win:   eg iva junta 
+2018-12-23 18:19:18.315 [main] INFO  anagram.Letters - Candidate to win:   eg jaunt fish 
+2018-12-23 18:19:18.318 [main] INFO  anagram.Letters - Candidate to win:   eg jaunt iva 
+2018-12-23 18:19:18.393 [main] INFO  anagram.Letters - Candidate to win:   eg jun faiths 
+2018-12-23 18:19:18.402 [main] INFO  anagram.Letters - Candidate to win:   eg jun iva 
+2018-12-23 18:19:18.404 [main] INFO  anagram.Letters - Candidate to win:   eg junta fish 
+2018-12-23 18:19:18.407 [main] INFO  anagram.Letters - Candidate to win:   eg junta iva 
+2018-12-23 18:19:18.438 [main] DEBUG anagram.Letters -                   eg  519/21
+2018-12-23 18:19:18.438 [main] DEBUG anagram.Letters -                eging  519/22
+2018-12-23 18:19:18.658 [main] DEBUG anagram.Letters -                 egis  519/23
+2018-12-23 18:19:18.697 [main] INFO  anagram.Letters - Candidate to win:   egs faith iva 
+2018-12-23 18:19:18.701 [main] INFO  anagram.Letters - Candidate to win:   egs faith jun 
+2018-12-23 18:19:18.707 [main] INFO  anagram.Letters - Candidate to win:   egs faith iva 
+2018-12-23 18:19:18.712 [main] INFO  anagram.Letters - Candidate to win:   egs faith jun 
+2018-12-23 18:19:18.895 [main] INFO  anagram.Letters - Candidate to win:   egs iva faith 
+2018-12-23 18:19:18.896 [main] INFO  anagram.Letters - Candidate to win:   egs iva faith 
+2018-12-23 18:19:18.908 [main] INFO  anagram.Letters - Candidate to win:   egs iva jun 
+2018-12-23 18:19:18.909 [main] INFO  anagram.Letters - Candidate to win:   egs iva jun 
+2018-12-23 18:19:18.999 [main] INFO  anagram.Letters - Candidate to win:   egs jun faith 
+2018-12-23 18:19:19.000 [main] INFO  anagram.Letters - Candidate to win:   egs jun faith 
+2018-12-23 18:19:19.006 [main] INFO  anagram.Letters - Candidate to win:   egs jun iva 
+2018-12-23 18:19:19.009 [main] INFO  anagram.Letters - Candidate to win:   egs jun iva 
+2018-12-23 18:19:19.025 [main] DEBUG anagram.Letters -                  egs  519/24
+2018-12-23 18:19:19.108 [main] INFO  anagram.Letters - Candidate to win:   eh fag iva 
+2018-12-23 18:19:19.118 [main] INFO  anagram.Letters - Candidate to win:   eh fag justin 
+2018-12-23 18:19:19.123 [main] INFO  anagram.Letters - Candidate to win:   eh fagin iva 
+2018-12-23 18:19:19.123 [main] INFO  anagram.Letters - Candidate to win:   eh fagin iva 
+2018-12-23 18:19:19.127 [main] INFO  anagram.Letters - Candidate to win:   eh fagin just 
+2018-12-23 18:19:19.128 [main] INFO  anagram.Letters - Candidate to win:   eh fagin juts 
+2018-12-23 18:19:19.149 [main] INFO  anagram.Letters - Candidate to win:   eh faint iva 
+2018-12-23 18:19:19.151 [main] INFO  anagram.Letters - Candidate to win:   eh faint jugs 
+2018-12-23 18:19:19.154 [main] INFO  anagram.Letters - Candidate to win:   eh faints iva 
+2018-12-23 18:19:19.157 [main] INFO  anagram.Letters - Candidate to win:   eh faints jug 
+2018-12-23 18:19:19.240 [main] INFO  anagram.Letters - Candidate to win:   eh faust ivan 
+2018-12-23 18:19:19.243 [main] INFO  anagram.Letters - Candidate to win:   eh faust jig 
+2018-12-23 18:19:19.256 [main] INFO  anagram.Letters - Candidate to win:   eh fiat ivan 
+2018-12-23 18:19:19.260 [main] INFO  anagram.Letters - Candidate to win:   eh fiat jugs 
+2018-12-23 18:19:19.266 [main] INFO  anagram.Letters - Candidate to win:   eh fiat ivan 
+2018-12-23 18:19:19.273 [main] INFO  anagram.Letters - Candidate to win:   eh fiat jugs 
+2018-12-23 18:19:19.278 [main] INFO  anagram.Letters - Candidate to win:   eh fiats iva 
+2018-12-23 18:19:19.279 [main] INFO  anagram.Letters - Candidate to win:   eh fiats ivan 
+2018-12-23 18:19:19.282 [main] INFO  anagram.Letters - Candidate to win:   eh fiats jug 
+2018-12-23 18:19:19.283 [main] INFO  anagram.Letters - Candidate to win:   eh fiats jung 
+2018-12-23 18:19:19.289 [main] INFO  anagram.Letters - Candidate to win:   eh fig iva 
+2018-12-23 18:19:19.290 [main] INFO  anagram.Letters - Candidate to win:   eh fig iva 
+2018-12-23 18:19:19.296 [main] INFO  anagram.Letters - Candidate to win:   eh fig jaunts 
+2018-12-23 18:19:19.302 [main] INFO  anagram.Letters - Candidate to win:   eh fig juntas 
+2018-12-23 18:19:19.307 [main] INFO  anagram.Letters - Candidate to win:   eh figs iva 
+2018-12-23 18:19:19.307 [main] INFO  anagram.Letters - Candidate to win:   eh figs iva 
+2018-12-23 18:19:19.312 [main] INFO  anagram.Letters - Candidate to win:   eh figs jaunt 
+2018-12-23 18:19:19.316 [main] INFO  anagram.Letters - Candidate to win:   eh figs junta 
+2018-12-23 18:19:19.415 [main] INFO  anagram.Letters - Candidate to win:   eh fungi it 
+2018-12-23 18:19:19.416 [main] INFO  anagram.Letters - Candidate to win:   eh fungi it 
+2018-12-23 18:19:19.419 [main] INFO  anagram.Letters - Candidate to win:   eh fungi its 
+2018-12-23 18:19:19.421 [main] INFO  anagram.Letters - Candidate to win:   eh fungi java 
+2018-12-23 18:19:19.422 [main] INFO  anagram.Letters - Candidate to win:   eh fungi javas 
+2018-12-23 18:19:19.422 [main] INFO  anagram.Letters - Candidate to win:   eh fungi javas 
+2018-12-23 18:19:19.435 [main] INFO  anagram.Letters - Candidate to win:   eh fusing it 
+2018-12-23 18:19:19.435 [main] INFO  anagram.Letters - Candidate to win:   eh fusing it 
+2018-12-23 18:19:19.438 [main] INFO  anagram.Letters - Candidate to win:   eh fusing java 
+2018-12-23 18:19:19.438 [main] INFO  anagram.Letters - Candidate to win:   eh fusing java 
+2018-12-23 18:19:19.442 [main] INFO  anagram.Letters - Candidate to win:   eh fusing it 
+2018-12-23 18:19:19.443 [main] INFO  anagram.Letters - Candidate to win:   eh fusing it 
+2018-12-23 18:19:19.446 [main] INFO  anagram.Letters - Candidate to win:   eh fusing java 
+2018-12-23 18:19:19.446 [main] INFO  anagram.Letters - Candidate to win:   eh fusing java 
+2018-12-23 18:19:19.766 [main] INFO  anagram.Letters - Candidate to win:   eh it fungi 
+2018-12-23 18:19:19.768 [main] INFO  anagram.Letters - Candidate to win:   eh it fusing 
+2018-12-23 18:19:19.769 [main] INFO  anagram.Letters - Candidate to win:   eh it fusing 
+2018-12-23 18:19:19.785 [main] INFO  anagram.Letters - Candidate to win:   eh it java 
+2018-12-23 18:19:19.785 [main] INFO  anagram.Letters - Candidate to win:   eh it java 
+2018-12-23 18:19:19.786 [main] INFO  anagram.Letters - Candidate to win:   eh it javas 
+2018-12-23 18:19:19.798 [main] INFO  anagram.Letters - Candidate to win:   eh it fungi 
+2018-12-23 18:19:19.799 [main] INFO  anagram.Letters - Candidate to win:   eh it fusing 
+2018-12-23 18:19:19.800 [main] INFO  anagram.Letters - Candidate to win:   eh it fusing 
+2018-12-23 18:19:19.814 [main] INFO  anagram.Letters - Candidate to win:   eh it java 
+2018-12-23 18:19:19.814 [main] INFO  anagram.Letters - Candidate to win:   eh it java 
+2018-12-23 18:19:19.815 [main] INFO  anagram.Letters - Candidate to win:   eh it javas 
+2018-12-23 18:19:19.826 [main] INFO  anagram.Letters - Candidate to win:   eh its fungi 
+2018-12-23 18:19:19.833 [main] INFO  anagram.Letters - Candidate to win:   eh its java 
+2018-12-23 18:19:19.840 [main] INFO  anagram.Letters - Candidate to win:   eh iva fag 
+2018-12-23 18:19:19.841 [main] INFO  anagram.Letters - Candidate to win:   eh iva fagin 
+2018-12-23 18:19:19.841 [main] INFO  anagram.Letters - Candidate to win:   eh iva fagin 
+2018-12-23 18:19:19.843 [main] INFO  anagram.Letters - Candidate to win:   eh iva faint 
+2018-12-23 18:19:19.844 [main] INFO  anagram.Letters - Candidate to win:   eh iva faints 
+2018-12-23 18:19:19.852 [main] INFO  anagram.Letters - Candidate to win:   eh iva fiats 
+2018-12-23 18:19:19.853 [main] INFO  anagram.Letters - Candidate to win:   eh iva fig 
+2018-12-23 18:19:19.853 [main] INFO  anagram.Letters - Candidate to win:   eh iva fig 
+2018-12-23 18:19:19.854 [main] INFO  anagram.Letters - Candidate to win:   eh iva figs 
+2018-12-23 18:19:19.854 [main] INFO  anagram.Letters - Candidate to win:   eh iva figs 
+2018-12-23 18:19:19.876 [main] INFO  anagram.Letters - Candidate to win:   eh iva jaunt 
+2018-12-23 18:19:19.877 [main] INFO  anagram.Letters - Candidate to win:   eh iva jaunts 
+2018-12-23 18:19:19.881 [main] INFO  anagram.Letters - Candidate to win:   eh iva jug 
+2018-12-23 18:19:19.882 [main] INFO  anagram.Letters - Candidate to win:   eh iva jugs 
+2018-12-23 18:19:19.884 [main] INFO  anagram.Letters - Candidate to win:   eh iva jung 
+2018-12-23 18:19:19.884 [main] INFO  anagram.Letters - Candidate to win:   eh iva junta 
+2018-12-23 18:19:19.885 [main] INFO  anagram.Letters - Candidate to win:   eh iva juntas 
+2018-12-23 18:19:19.886 [main] INFO  anagram.Letters - Candidate to win:   eh iva just 
+2018-12-23 18:19:19.887 [main] INFO  anagram.Letters - Candidate to win:   eh iva justin 
+2018-12-23 18:19:19.888 [main] INFO  anagram.Letters - Candidate to win:   eh iva juts 
+2018-12-23 18:19:19.894 [main] INFO  anagram.Letters - Candidate to win:   eh ivan faust 
+2018-12-23 18:19:19.894 [main] INFO  anagram.Letters - Candidate to win:   eh ivan fiat 
+2018-12-23 18:19:19.895 [main] INFO  anagram.Letters - Candidate to win:   eh ivan fiat 
+2018-12-23 18:19:19.895 [main] INFO  anagram.Letters - Candidate to win:   eh ivan fiats 
+2018-12-23 18:19:19.907 [main] INFO  anagram.Letters - Candidate to win:   eh ivan jig 
+2018-12-23 18:19:19.908 [main] INFO  anagram.Letters - Candidate to win:   eh ivan jug 
+2018-12-23 18:19:19.908 [main] INFO  anagram.Letters - Candidate to win:   eh ivan jugs 
+2018-12-23 18:19:19.909 [main] INFO  anagram.Letters - Candidate to win:   eh ivan jugs 
+2018-12-23 18:19:20.062 [main] INFO  anagram.Letters - Candidate to win:   eh jaunt figs 
+2018-12-23 18:19:20.066 [main] INFO  anagram.Letters - Candidate to win:   eh jaunt iva 
+2018-12-23 18:19:20.069 [main] INFO  anagram.Letters - Candidate to win:   eh jaunts fig 
+2018-12-23 18:19:20.070 [main] INFO  anagram.Letters - Candidate to win:   eh jaunts iva 
+2018-12-23 18:19:20.078 [main] INFO  anagram.Letters - Candidate to win:   eh java fungi 
+2018-12-23 18:19:20.079 [main] INFO  anagram.Letters - Candidate to win:   eh java fusing 
+2018-12-23 18:19:20.079 [main] INFO  anagram.Letters - Candidate to win:   eh java fusing 
+2018-12-23 18:19:20.080 [main] INFO  anagram.Letters - Candidate to win:   eh java fusing 
+2018-12-23 18:19:20.080 [main] INFO  anagram.Letters - Candidate to win:   eh java fusing 
+2018-12-23 18:19:20.088 [main] INFO  anagram.Letters - Candidate to win:   eh java it 
+2018-12-23 18:19:20.088 [main] INFO  anagram.Letters - Candidate to win:   eh java it 
+2018-12-23 18:19:20.089 [main] INFO  anagram.Letters - Candidate to win:   eh java it 
+2018-12-23 18:19:20.089 [main] INFO  anagram.Letters - Candidate to win:   eh java it 
+2018-12-23 18:19:20.090 [main] INFO  anagram.Letters - Candidate to win:   eh java its 
+2018-12-23 18:19:20.093 [main] INFO  anagram.Letters - Candidate to win:   eh javas fungi 
+2018-12-23 18:19:20.094 [main] INFO  anagram.Letters - Candidate to win:   eh javas fungi 
+2018-12-23 18:19:20.097 [main] INFO  anagram.Letters - Candidate to win:   eh javas it 
+2018-12-23 18:19:20.098 [main] INFO  anagram.Letters - Candidate to win:   eh javas it 
+2018-12-23 18:19:20.104 [main] INFO  anagram.Letters - Candidate to win:   eh jig faust 
+2018-12-23 18:19:20.120 [main] INFO  anagram.Letters - Candidate to win:   eh jig ivan 
+2018-12-23 18:19:20.183 [main] INFO  anagram.Letters - Candidate to win:   eh jug faints 
+2018-12-23 18:19:20.187 [main] INFO  anagram.Letters - Candidate to win:   eh jug fiats 
+2018-12-23 18:19:20.197 [main] INFO  anagram.Letters - Candidate to win:   eh jug iva 
+2018-12-23 18:19:20.198 [main] INFO  anagram.Letters - Candidate to win:   eh jug ivan 
+2018-12-23 18:19:20.201 [main] INFO  anagram.Letters - Candidate to win:   eh jugs faint 
+2018-12-23 18:19:20.203 [main] INFO  anagram.Letters - Candidate to win:   eh jugs fiat 
+2018-12-23 18:19:20.204 [main] INFO  anagram.Letters - Candidate to win:   eh jugs fiat 
+2018-12-23 18:19:20.211 [main] INFO  anagram.Letters - Candidate to win:   eh jugs iva 
+2018-12-23 18:19:20.212 [main] INFO  anagram.Letters - Candidate to win:   eh jugs ivan 
+2018-12-23 18:19:20.213 [main] INFO  anagram.Letters - Candidate to win:   eh jugs ivan 
+2018-12-23 18:19:20.232 [main] INFO  anagram.Letters - Candidate to win:   eh jung fiats 
+2018-12-23 18:19:20.237 [main] INFO  anagram.Letters - Candidate to win:   eh jung iva 
+2018-12-23 18:19:20.241 [main] INFO  anagram.Letters - Candidate to win:   eh junta figs 
+2018-12-23 18:19:20.243 [main] INFO  anagram.Letters - Candidate to win:   eh junta iva 
+2018-12-23 18:19:20.245 [main] INFO  anagram.Letters - Candidate to win:   eh juntas fig 
+2018-12-23 18:19:20.246 [main] INFO  anagram.Letters - Candidate to win:   eh juntas iva 
+2018-12-23 18:19:20.248 [main] INFO  anagram.Letters - Candidate to win:   eh just fagin 
+2018-12-23 18:19:20.258 [main] INFO  anagram.Letters - Candidate to win:   eh just iva 
+2018-12-23 18:19:20.261 [main] INFO  anagram.Letters - Candidate to win:   eh justin fag 
+2018-12-23 18:19:20.264 [main] INFO  anagram.Letters - Candidate to win:   eh justin iva 
+2018-12-23 18:19:20.284 [main] INFO  anagram.Letters - Candidate to win:   eh juts fagin 
+2018-12-23 18:19:20.292 [main] INFO  anagram.Letters - Candidate to win:   eh juts iva 
+2018-12-23 18:19:20.293 [main] DEBUG anagram.Letters -                   eh  519/25
+2018-12-23 18:19:20.299 [main] INFO  anagram.Letters - Candidate to win:   eight f iva 
+2018-12-23 18:19:20.302 [main] INFO  anagram.Letters - Candidate to win:   eight f janus 
+2018-12-23 18:19:20.311 [main] INFO  anagram.Letters - Candidate to win:   eight f iva 
+2018-12-23 18:19:20.315 [main] INFO  anagram.Letters - Candidate to win:   eight f janus 
+2018-12-23 18:19:20.339 [main] INFO  anagram.Letters - Candidate to win:   eight fauns iva 
+2018-12-23 18:19:20.339 [main] INFO  anagram.Letters - Candidate to win:   eight fauns iva 
+2018-12-23 18:19:20.340 [main] INFO  anagram.Letters - Candidate to win:   eight fauns j 
+2018-12-23 18:19:20.341 [main] INFO  anagram.Letters - Candidate to win:   eight fauns j 
+2018-12-23 18:19:20.348 [main] INFO  anagram.Letters - Candidate to win:   eight fun i 
+2018-12-23 18:19:20.349 [main] INFO  anagram.Letters - Candidate to win:   eight fun i 
+2018-12-23 18:19:20.350 [main] INFO  anagram.Letters - Candidate to win:   eight fun is 
+2018-12-23 18:19:20.350 [main] INFO  anagram.Letters - The winner is   java eight is fun
+2018-12-23 18:19:20.350 [main] INFO  anagram.Letters - The winner is   java eight is fun
+2018-12-23 18:19:20.353 [main] INFO  anagram.Letters - Duration: 0min 8s 
+2018-12-23 18:19:20.471 [main] INFO  anagram.Letters - words: [f, f, fa, fain, fan, fans, faun, fauna, faunas, fauns, fiji, fijian, fijians, fin, fin, finis, fins, fins, fuji, fun, fus, i, i, ian, if, ifs, in, in, in, ina, ins, ins, is, isis, iva, ivan, j, j, jain, jan, jana, jana, janis, janus, java, javas, jin, jinan, jini, jinis, jins, juan, juana, jun] 
  number of words: 54 
 letters [v, u, s, n, j, i, f, a, a] 
 numbers of letter 9
-2018-12-23 15:35:51.720 [main] INFO  anagram.Letters - Candidate to win:   f iva janus 
-2018-12-23 15:35:51.720 [main] INFO  anagram.Letters - Candidate to win:   f janus iva 
-2018-12-23 15:35:51.735 [main] INFO  anagram.Letters - Candidate to win:   f iva janus 
-2018-12-23 15:35:51.735 [main] INFO  anagram.Letters - Candidate to win:   f janus iva 
-2018-12-23 15:35:51.751 [main] INFO  anagram.Letters - Candidate to win:   fauns iva j 
-2018-12-23 15:35:51.751 [main] INFO  anagram.Letters - Candidate to win:   fauns iva j 
-2018-12-23 15:35:51.751 [main] INFO  anagram.Letters - Candidate to win:   fauns j iva 
-2018-12-23 15:35:51.751 [main] INFO  anagram.Letters - Candidate to win:   fauns j iva 
-2018-12-23 15:35:51.751 [main] INFO  anagram.Letters - Candidate to win:   fun i javas 
-2018-12-23 15:35:51.751 [main] INFO  anagram.Letters - Candidate to win:   fun i javas 
-2018-12-23 15:35:51.751 [main] INFO  anagram.Letters - Candidate to win:   fun is java 
-2018-12-23 15:35:51.751 [main] INFO  anagram.Letters - The winner is   java is fun
-2018-12-23 15:35:51.751 [main] INFO  anagram.Letters - The winner is   java is fun
+2018-12-23 18:19:20.474 [main] INFO  anagram.Letters - Candidate to win:   f iva janus 
+2018-12-23 18:19:20.475 [main] INFO  anagram.Letters - Candidate to win:   f janus iva 
+2018-12-23 18:19:20.477 [main] DEBUG anagram.Letters -                    f  54/0
+2018-12-23 18:19:20.479 [main] INFO  anagram.Letters - Candidate to win:   f iva janus 
+2018-12-23 18:19:20.480 [main] INFO  anagram.Letters - Candidate to win:   f janus iva 
+2018-12-23 18:19:20.482 [main] DEBUG anagram.Letters -                    f  54/0
+2018-12-23 18:19:20.485 [main] DEBUG anagram.Letters -                   fa  54/2
+2018-12-23 18:19:20.485 [main] DEBUG anagram.Letters -                 fain  54/3
+2018-12-23 18:19:20.486 [main] DEBUG anagram.Letters -                  fan  54/4
+2018-12-23 18:19:20.487 [main] DEBUG anagram.Letters -                 fans  54/5
+2018-12-23 18:19:20.488 [main] DEBUG anagram.Letters -                 faun  54/6
+2018-12-23 18:19:20.490 [main] DEBUG anagram.Letters -                fauna  54/7
+2018-12-23 18:19:20.491 [main] DEBUG anagram.Letters -               faunas  54/8
+2018-12-23 18:19:20.491 [main] INFO  anagram.Letters - Candidate to win:   fauns iva j 
+2018-12-23 18:19:20.491 [main] INFO  anagram.Letters - Candidate to win:   fauns iva j 
+2018-12-23 18:19:20.492 [main] INFO  anagram.Letters - Candidate to win:   fauns j iva 
+2018-12-23 18:19:20.492 [main] INFO  anagram.Letters - Candidate to win:   fauns j iva 
+2018-12-23 18:19:20.492 [main] DEBUG anagram.Letters -                fauns  54/9
+2018-12-23 18:19:20.493 [main] DEBUG anagram.Letters -                 fiji  54/10
+2018-12-23 18:19:20.493 [main] DEBUG anagram.Letters -               fijian  54/11
+2018-12-23 18:19:20.493 [main] DEBUG anagram.Letters -              fijians  54/12
+2018-12-23 18:19:20.493 [main] DEBUG anagram.Letters -                  fin  54/13
+2018-12-23 18:19:20.493 [main] DEBUG anagram.Letters -                  fin  54/13
+2018-12-23 18:19:20.493 [main] DEBUG anagram.Letters -                finis  54/15
+2018-12-23 18:19:20.494 [main] DEBUG anagram.Letters -                 fins  54/16
+2018-12-23 18:19:20.494 [main] DEBUG anagram.Letters -                 fins  54/16
+2018-12-23 18:19:20.494 [main] DEBUG anagram.Letters -                 fuji  54/18
+2018-12-23 18:19:20.494 [main] INFO  anagram.Letters - Candidate to win:   fun i javas 
+2018-12-23 18:19:20.495 [main] INFO  anagram.Letters - Candidate to win:   fun i javas 
+2018-12-23 18:19:20.495 [main] INFO  anagram.Letters - Candidate to win:   fun is java 
+2018-12-23 18:19:20.495 [main] INFO  anagram.Letters - The winner is   java is fun
+2018-12-23 18:19:20.496 [main] INFO  anagram.Letters - The winner is   java is fun
+2018-12-23 18:19:20.496 [main] INFO  anagram.Letters - The winner is   java is fun
+2018-12-23 18:19:20.496 [main] INFO  anagram.Letters - Duration: 0min 0s 

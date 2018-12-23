@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class AnagramTest {
+class LettersTest {
 
   //https://ponychallenge.trustpilot.com/api-docs/index.html#!/pony-challenge/post_pony_challenge_maze
 //http://followthewhiterabbit.trustpilot.com/cs/step3.html
@@ -68,7 +68,7 @@ class AnagramTest {
     List<String> lettersFromSentence = UtilTest.getLettersFromSentence(ANAGRAM_java_is_fun);
     List<String> significantWordList = dictionary.getWordsContainingSignificantLetters_Filtered("j", "i", "f", Strings.EMPTY);
     Letters letters = new Letters(significantWordList, HASH_CODE_java_is_fun);
-    Assertions.assertEquals(PHRASE_java_is_fun, letters.findAnagramLoopFromLetters(lettersFromSentence));
+    Assertions.assertEquals(PHRASE_java_is_fun, letters.findAnagramFromLetters(lettersFromSentence));
   }
 
   @Test
@@ -77,7 +77,7 @@ class AnagramTest {
     List<String> lettersFromSentence = UtilTest.getLettersFromSentence(ANAGRAM_java_eight_is_fun);
     List<String> significantWordList = dictionary.getWordsContainingSignificantLetters_Filtered("j", "i", "f", "e");
     Letters letters = new Letters(significantWordList, HASH_CODE_java_eight_is_fun);
-    Assertions.assertEquals(PHRASE_java_eight_is_fun, letters.findAnagramLoopFromLetters(lettersFromSentence));
+    Assertions.assertEquals(PHRASE_java_eight_is_fun, letters.findAnagramFromLetters(lettersFromSentence));
   }
 
 }

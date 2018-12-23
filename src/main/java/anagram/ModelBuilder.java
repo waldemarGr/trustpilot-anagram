@@ -26,11 +26,11 @@ public class ModelBuilder {
   }
 
 
-  public Model build() {
-    Model model = new Model();
-    model.setLetterDeleted(letterDeleted);
-    model.setAnagramLetterIsEmpty(anagramLetterIsEmpty);
-    model.setLettersToUse(lettersToUse);
-    return model;
+  public PhaseControl build() {
+    PhaseControl phaseControl = new PhaseControl();
+    phaseControl.setLetterDeleted(letterDeleted);
+    phaseControl.setAnagramLetterIsEmpty(anagramLetterIsEmpty);
+    phaseControl.setLettersToUse(lettersToUse);
+    return phaseControl;
   }
 }
