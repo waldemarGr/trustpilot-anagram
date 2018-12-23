@@ -1,7 +1,9 @@
 package anagram;
 
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -18,7 +20,7 @@ import org.apache.logging.log4j.util.Strings;
  */
 public class Dictionary {
 
-  private static final String WORD_LIST_PATH = "c://wordlist";//todo
+  private static final String WORD_LIST_FILE_NAME = "wordlist";
   private final String phrase;
 
   public Dictionary(String phrase) {
@@ -28,14 +30,20 @@ public class Dictionary {
   private List<String> getWordsContainingSignificantLetters() {
     List<String> letters = getLettersFromSentence(phrase);
     List<String> list = new ArrayList<>();
-    try (Stream<String> stream = Files.lines(Paths.get(WORD_LIST_PATH))) {
+    try (Stream<String> stream = Files.lines(getPathToDirecotry())) {
       list = stream
           .filter(line -> letters.containsAll(Arrays.asList(line.split(""))))
           .collect(Collectors.toList());
     } catch (IOException e) {
       e.printStackTrace();
+    } catch (URISyntaxException e) {
+      e.printStackTrace();
     }
     return list;
+  }
+
+  private Path getPathToDirecotry() throws URISyntaxException {
+    return Paths.get((ClassLoader.getSystemResource(WORD_LIST_FILE_NAME).toURI()));
   }
 
   public List<String> getWordsContainingSignificantLetters_Filtered(String x, String y, String z, String w) {
