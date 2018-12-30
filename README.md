@@ -18,3 +18,5 @@ Here is a couple of important hints to help you out:
 Here is a list of english words, it should help you out.
 Type the secret phrase here to see if you found the right one  
 Trustpilot Development Team 
+
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/quality_gate?project=waldemarGr_trustpilot-anagram)](https://sonarcloud.io/dashboard?id=waldemarGr_trustpilot-anagram)
